@@ -1,0 +1,3215 @@
+{
+    "questions": [
+        {
+            "question": "Hello",
+            "answer": "Hi there"
+        },
+        {
+            "question": "How are you",
+            "answer": "I am a AI I don't have feelings"
+        },
+        {
+            "question": "Who are you",
+            "answer": "I am CB a chatbot made by Alexander"
+        },
+        {
+            "question": "What is your purpose",
+            "answer": "My purpose is to assist you with information and tasks."
+        },
+        {
+            "question": "Can you tell me a joke",
+            "answer": "Why don't scientists trust atoms? Because they make up everything!"
+        },
+        {
+            "question": "What's the weather like today",
+            "answer": "I can't check real-time data, but you can check your local weather app!"
+        },
+        {
+            "question": "What is AI",
+            "answer": "AI stands for Artificial Intelligence, the simulation of human intelligence in machines."
+        },
+        {
+            "question": "What is the capital of France",
+            "answer": "The capital of France is Paris."
+        },
+        {
+            "question": "Tell me a fun fact",
+            "answer": "Did you know? Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible!"
+        },
+        {
+            "question": "What is the largest planet in our solar system",
+            "answer": "The largest planet in our solar system is Jupiter."
+        },
+        {
+            "question": "What is the speed of light",
+            "answer": "The speed of light is approximately 299,792 kilometers per second (186,282 miles per second)."
+        },
+        {
+            "question": "Can you speak other languages",
+            "answer": "I can understand and communicate in many languages. Which one would you like to try?"
+        },
+        {
+            "question": "What is the meaning of life",
+            "answer": "That's a big question! Some say it's 42, others seek purpose in different ways."
+        },
+        {
+            "question": "Who is the CEO of Tesla",
+            "answer": "Elon Musk is the CEO of Tesla."
+        },
+        {
+            "question": "What is the Pythagorean theorem",
+            "answer": "The Pythagorean theorem states that in a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides."
+        },
+        {
+            "question": "Can you solve math problems",
+            "answer": "Yes, I can help with basic calculations and some math problems."
+        },
+        {
+            "question": "What is the chemical symbol for water",
+            "answer": "The chemical symbol for water is H2O."
+        },
+        {
+            "question": "Who wrote 'To be, or not to be'",
+            "answer": "This famous line is from William Shakespeare's play 'Hamlet'."
+        },
+        {
+            "question": "What is the distance from Earth to the Moon",
+            "answer": "The average distance from Earth to the Moon is about 384,400 kilometers (238,855 miles)."
+        },
+        {
+            "question": "What are the primary colors",
+            "answer": "The primary colors are red, blue, and yellow."
+        },
+        {
+            "question": "What is the capital of Japan?",
+            "answer": "The capital of Japan is Tokyo."
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "answer": "The Mona Lisa was painted by Leonardo da Vinci."
+        },
+        {
+            "question": "How many continents are there?",
+            "answer": "There are seven continents: Africa, Antarctica, Asia, Europe, North America, Australia, and South America."
+        },
+        {
+            "question": "What is the tallest mountain in the world?",
+            "answer": "Mount Everest is the tallest mountain in the world, standing at 8,848 meters (29,029 feet)."
+        },
+        {
+            "question": "What is the main ingredient in guacamole?",
+            "answer": "The main ingredient in guacamole is avocado."
+        },
+        {
+            "question": "Who is the author of Harry Potter?",
+            "answer": "The author of Harry Potter is J.K. Rowling."
+        },
+        {
+            "question": "What does HTML stand for?",
+            "answer": "HTML stands for HyperText Markup Language."
+        },
+        {
+            "question": "How do airplanes fly?",
+            "answer": "Airplanes fly by generating lift through their wings, which occurs as air flows faster over the top of the wing compared to the bottom, creating lower pressure above the wing."
+        },
+        {
+            "question": "What is renewable energy?",
+            "answer": "Renewable energy comes from sources that are naturally replenished, such as solar, wind, and hydroelectric power."
+        },
+        {
+            "question": "Can dogs eat chocolate?",
+            "answer": "No, chocolate is toxic to dogs and can cause serious health issues."
+        },
+        {
+            "question": "How does the internet work?",
+            "answer": "The internet works by connecting computers and devices worldwide through a network of servers, routers, and data centers, allowing data to be transferred via various protocols."
+        },
+        {
+            "question": "What is photosynthesis?",
+            "answer": "Photosynthesis is the process by which plants convert sunlight, carbon dioxide, and water into glucose and oxygen."
+        },
+        {
+            "question": "What is the freezing point of water?",
+            "answer": "The freezing point of water is 0 degrees Celsius (32 degrees Fahrenheit)."
+        },
+        {
+            "question": "How many planets are in the Solar System?",
+            "answer": "There are eight planets in the Solar System: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune."
+        },
+        {
+            "question": "What is the speed of sound?",
+            "answer": "The speed of sound in air is approximately 343 meters per second (1,125 feet per second)."
+        },
+        {
+            "question": "Who invented the telephone?",
+            "answer": "The telephone was invented by Alexander Graham Bell."
+        },
+        {
+            "question": "Why is the sky blue?",
+            "answer": "The sky appears blue because molecules in the atmosphere scatter sunlight in all directions, and blue light is scattered more than other colors because it travels in shorter, smaller waves."
+        },
+        {
+            "question": "What are the three states of matter?",
+            "answer": "The three common states of matter are solid, liquid, and gas."
+        },
+        {
+            "question": "What is global warming?",
+            "answer": "Global warming refers to the long-term increase in Earth's average temperature due to human activities, such as burning fossil fuels and deforestation, which increase greenhouse gases in the atmosphere."
+        },
+        {
+            "question": "Can you recommend a movie?",
+            "answer": "Sure! If you like sci-fi, try watching 'Inception'. It's a thrilling movie with lots of twists!"
+        },
+        {
+            "question": "What is a healthy diet?",
+            "answer": "A healthy diet includes a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats, while limiting processed foods, sugars, and saturated fats."
+        },
+        {
+            "question": "Who is the founder of Microsoft?",
+            "answer": "Microsoft was founded by Bill Gates and Paul Allen."
+        },
+        {
+            "question": "What is quantum computing?",
+            "answer": "Quantum computing uses principles of quantum mechanics to perform calculations at speeds far beyond traditional computers, by utilizing quantum bits or qubits."
+        },
+        {
+            "question": "How can I improve my sleep?",
+            "answer": "To improve sleep, try maintaining a consistent sleep schedule, creating a comfortable sleep environment, avoiding caffeine before bed, and limiting screen time before sleep."
+        },
+        {
+            "question": "What causes earthquakes?",
+            "answer": "Earthquakes are caused by the sudden release of energy in the Earth's crust due to tectonic plate movements."
+        },
+        {
+            "question": "Can you help me with my homework?",
+            "answer": "Of course! Let me know what subject you're working on, and I'll do my best to assist you."
+        },
+        {
+            "question": "What is the population of the world?",
+            "answer": "As of now, the world population is over 7.8 billion people."
+        },
+        {
+            "question": "How do I start learning to code?",
+            "answer": "To start learning to code, choose a programming language like Python, find online tutorials or courses, and practice by building small projects."
+        },
+        {
+            "question": "What is cryptocurrency?",
+            "answer": "Cryptocurrency is a digital or virtual form of currency that uses cryptography for security and operates on decentralized networks based on blockchain technology."
+        },
+        {
+            "question": "What is a black hole?",
+            "answer": "A black hole is a region in space with a gravitational pull so strong that nothing, not even light, can escape from it."
+        },
+        {
+            "question": "Which country has the lowest Human Development Index (HDI)?",
+            "answer": "Niger has one of the lowest Human Development Indexes in the world."
+        },
+        {
+            "question": "Which country has the lowest Gross National Income per capita?",
+            "answer": "Malawi is often cited as having one of the lowest Gross National Incomes per capita."
+        },
+        {
+            "question": "What is the main economic challenge for least developed countries (LDCs)?",
+            "answer": "The main economic challenges for LDCs include insufficient infrastructure, limited access to education and healthcare, and a high dependence on international aid."
+        },
+        {
+            "question": "Which sub-Saharan African country is often considered one of the poorest?",
+            "answer": "The Democratic Republic of the Congo is often considered one of the poorest countries in sub-Saharan Africa."
+        },
+        {
+            "question": "What is the primary economic sector in developing countries?",
+            "answer": "Agriculture is often the primary economic sector in developing countries, with a large part of the population relying on it for subsistence."
+        },
+        {
+            "question": "Which country has been most affected by famine in recent decades?",
+            "answer": "South Sudan has been severely affected by famine in recent decades."
+        },
+        {
+            "question": "Which country has one of the highest infant mortality rates?",
+            "answer": "Nigeria has one of the highest infant mortality rates in the world."
+        },
+        {
+            "question": "Which country has recently received significant international aid to address poverty?",
+            "answer": "Yemen has recently received significant international aid to address poverty and humanitarian crises."
+        },
+        {
+            "question": "Which country has one of the lowest life expectancies?",
+            "answer": "Malawi has one of the lowest life expectancies due to factors such as diseases and challenging living conditions."
+        },
+        {
+            "question": "Which Southeast Asian country is often mentioned for its high level of poverty?",
+            "answer": "Cambodia is often mentioned for its high level of poverty in Southeast Asia."
+        },
+        {
+            "question": "What is the main factor contributing to poverty in Haiti?",
+            "answer": "Poverty in Haiti is primarily caused by natural disasters, political instability, and limited economic development."
+        },
+        {
+            "question": "Which Latin American country has the highest poverty rates?",
+            "answer": "Honduras has some of the highest poverty rates in Latin America."
+        },
+        {
+            "question": "Which country in Africa has an extremely low school enrollment rate?",
+            "answer": "Chad has one of the lowest school enrollment rates compared to other African countries."
+        },
+        {
+            "question": "What is the principal public health challenge in least developed countries?",
+            "answer": "The principal public health challenge in least developed countries is limited access to basic healthcare and a high prevalence of infectious diseases."
+        },
+        {
+            "question": "Which country has limited access to clean drinking water despite its natural resources?",
+            "answer": "Zimbabwe has limited access to clean drinking water despite its natural resources."
+        },
+        {
+            "question": "What is the poverty rate in Ethiopia?",
+            "answer": "Ethiopia has a high poverty rate, with a significant portion of its population living below the poverty line."
+        },
+        {
+            "question": "Which Southeast Asian country is known for persistent poverty?",
+            "answer": "Myanmar is known for persistent poverty in Southeast Asia."
+        },
+        {
+            "question": "Which country has recently seen significant improvement in its economic situation despite challenges?",
+            "answer": "Rwanda has recently seen significant improvement in its economic situation despite many challenges."
+        },
+        {
+            "question": "Which West African country is particularly known for its economic challenges?",
+            "answer": "Burkina Faso is particularly known for its economic challenges in West Africa."
+        },
+        {
+            "question": "What is the main export product of least developed countries?",
+            "answer": "Agricultural products such as coffee, cocoa, and cotton are often the main exports of least developed countries."
+        },
+        {
+            "question": "Which country has the largest number of refugees due to poverty and conflict?",
+            "answer": "Syria has the largest number of refugees due to poverty and conflict."
+        },
+        {
+            "question": "Which country has recently implemented significant policies to reduce poverty?",
+            "answer": "Bangladesh has recently implemented significant policies to reduce poverty."
+        },
+        {
+            "question": "What is the primary development challenge for landlocked countries?",
+            "answer": "Landlocked countries face major development challenges due to limited access to maritime routes and ports."
+        },
+        {
+            "question": "Which country in Oceania is known for significant economic and social challenges?",
+            "answer": "The Solomon Islands are known for significant economic and social challenges in Oceania."
+        },
+        {
+            "question": "Which country has recently experienced a severe economic and humanitarian crisis?",
+            "answer": "Venezuela has recently experienced a severe economic and humanitarian crisis."
+        },
+        {
+            "question": "What is the primary impact of poverty on children in developing countries?",
+            "answer": "The primary impact of poverty on children in developing countries includes limited access to education, malnutrition, and poor living conditions."
+        },
+        {
+            "question": "Which country has one of the highest youth unemployment rates?",
+            "answer": "South Africa has one of the highest youth unemployment rates."
+        },
+        {
+            "question": "Who was the first Emperor of China?",
+            "answer": "The first Emperor of China was Qin Shi Huang, who unified China in 221 BC."
+        },
+        {
+            "question": "What year did the Titanic sink?",
+            "answer": "The Titanic sank on April 15, 1912."
+        },
+        {
+            "question": "Who was the leader of the Soviet Union during World War II?",
+            "answer": "Joseph Stalin was the leader of the Soviet Union during World War II."
+        },
+        {
+            "question": "What was the primary cause of the American Civil War?",
+            "answer": "The primary cause of the American Civil War was the issue of slavery and states' rights."
+        },
+        {
+            "question": "Who discovered America in 1492?",
+            "answer": "Christopher Columbus is credited with discovering America in 1492."
+        },
+        {
+            "question": "What was the name of the first manned mission to land on the Moon?",
+            "answer": "The name of the first manned mission to land on the Moon was Apollo 11."
+        },
+        {
+            "question": "Which famous French military leader was exiled to the island of Elba in 1814?",
+            "answer": "Napoleon Bonaparte was exiled to the island of Elba in 1814."
+        },
+        {
+            "question": "What ancient civilization built the pyramids of Giza?",
+            "answer": "The ancient Egyptians built the pyramids of Giza."
+        },
+        {
+            "question": "What was the main focus of the Renaissance period?",
+            "answer": "The Renaissance period focused on the revival of art, culture, and intellectual pursuits, drawing inspiration from classical antiquity."
+        },
+        {
+            "question": "Who was the first President of the United States?",
+            "answer": "George Washington was the first President of the United States."
+        },
+        {
+            "question": "What was the name of the ship that carried the Pilgrims to America in 1620?",
+            "answer": "The ship that carried the Pilgrims to America in 1620 was the Mayflower."
+        },
+        {
+            "question": "In which year did the Berlin Wall fall?",
+            "answer": "The Berlin Wall fell in 1989."
+        },
+        {
+            "question": "Who was the British Prime Minister during most of World War II?",
+            "answer": "Winston Churchill was the British Prime Minister during most of World War II."
+        },
+        {
+            "question": "What event started World War I?",
+            "answer": "The assassination of Archduke Franz Ferdinand of Austria in 1914 is widely considered the event that started World War I."
+        },
+        {
+            "question": "Which empire was ruled by Genghis Khan?",
+            "answer": "Genghis Khan ruled the Mongol Empire."
+        },
+        {
+            "question": "What was the name of the period of political and social upheaval in France from 1789 to 1799?",
+            "answer": "The period of political and social upheaval in France from 1789 to 1799 is known as the French Revolution."
+        },
+        {
+            "question": "Who was the famous leader of the Indian independence movement against British rule?",
+            "answer": "Mahatma Gandhi was the famous leader of the Indian independence movement against British rule."
+        },
+        {
+            "question": "What was the main cause of the Cold War?",
+            "answer": "The main cause of the Cold War was the ideological conflict between the capitalist Western bloc led by the United States and the communist Eastern bloc led by the Soviet Union."
+        },
+        {
+            "question": "Which civilization is known for building the Machu Picchu?",
+            "answer": "The Inca civilization is known for building Machu Picchu."
+        },
+        {
+            "question": "Who was the famous queen of Egypt known for her relationships with Julius Caesar and Mark Antony?",
+            "answer": "Cleopatra VII was the famous queen of Egypt known for her relationships with Julius Caesar and Mark Antony."
+        },
+        {
+            "question": "What was the main purpose of the Great Wall of China?",
+            "answer": "The main purpose of the Great Wall of China was to protect against invasions and raids by nomadic tribes from the north."
+        },
+        {
+            "question": "Which battle marked the turning point of the American Revolutionary War?",
+            "answer": "The Battle of Saratoga marked the turning point of the American Revolutionary War."
+        },
+        {
+            "question": "Who was the leader of the Bolshevik Revolution in Russia in 1917?",
+            "answer": "Vladimir Lenin was the leader of the Bolshevik Revolution in Russia in 1917."
+        },
+        {
+            "question": "What was the main goal of the Marshall Plan?",
+            "answer": "The main goal of the Marshall Plan was to provide economic aid to Western European countries to help them rebuild after World War II."
+        },
+        {
+            "question": "In which year did the French and Indian War end?",
+            "answer": "The French and Indian War ended in 1763 with the Treaty of Paris."
+        },
+        {
+            "question": "Who was the famous queen of England who ruled during the defeat of the Spanish Armada in 1588?",
+            "answer": "Queen Elizabeth I was the famous queen of England who ruled during the defeat of the Spanish Armada in 1588."
+        },
+        {
+            "question": "Which historical figure is known for his nonviolent resistance and civil disobedience during the American Civil Rights Movement?",
+            "answer": "Martin Luther King Jr. is known for his nonviolent resistance and civil disobedience during the American Civil Rights Movement."
+        },
+        {
+            "question": "What was the name of the treaty that ended World War I?",
+            "answer": "The Treaty of Versailles ended World War I."
+        },
+        {
+            "question": "Which famous explorer is credited with circumnavigating the globe for the first time?",
+            "answer": "Ferdinand Magellan is credited with circumnavigating the globe for the first time, although he was killed during the voyage and it was completed by Juan Sebastián Elcano."
+        },
+        {
+            "question": "Who was the leader of the Confederate States during the American Civil War?",
+            "answer": "Jefferson Davis was the leader of the Confederate States during the American Civil War."
+        },
+        {
+            "question": "What was the name of the period of economic hardship during the 1930s in the United States?",
+            "answer": "The period of economic hardship during the 1930s in the United States is known as the Great Depression."
+        },
+        {
+            "question": "Which empire was known for its extensive road system and influence over the Mediterranean region in ancient times?",
+            "answer": "The Roman Empire was known for its extensive road system and influence over the Mediterranean region."
+        },
+        {
+            "question": "What was the main purpose of the Treaty of Tordesillas in 1494?",
+            "answer": "The Treaty of Tordesillas was intended to divide the newly discovered lands outside Europe between Portugal and Spain to avoid conflict."
+        },
+        {
+            "question": "Who was the famous Renaissance artist known for painting the Mona Lisa?",
+            "answer": "Leonardo da Vinci was the famous Renaissance artist known for painting the Mona Lisa."
+        },
+        {
+            "question": "What event led to the start of the French Revolution in 1789?",
+            "answer": "The storming of the Bastille on July 14, 1789, is often considered the event that led to the start of the French Revolution."
+        },
+        {
+            "question": "Which ancient civilization is known for its contributions to mathematics and astronomy, including the development of the zero?",
+            "answer": "The Maya civilization is known for its contributions to mathematics and astronomy, including the development of the concept of zero."
+        },
+        {
+            "question": "Who was the U.S. President during the Cuban Missile Crisis?",
+            "answer": "John F. Kennedy was the U.S. President during the Cuban Missile Crisis in 1962."
+        },
+        {
+            "question": "Which war was fought between the North and South regions of the United States from 1861 to 1865?",
+            "answer": "The American Civil War was fought between the North (Union) and South (Confederacy) regions of the United States from 1861 to 1865."
+        },
+        {
+            "question": "Who was the leader of the anti-apartheid movement in South Africa?",
+            "answer": "Nelson Mandela was the leader of the anti-apartheid movement in South Africa."
+        },
+        {
+            "question": "What was the main cause of the 30 Years' War in Europe?",
+            "answer": "The main cause of the 30 Years' War was the religious conflict between Protestant and Catholic states within the Holy Roman Empire."
+        },
+        {
+            "question": "Which historical figure is known for his theory of relativity?",
+            "answer": "Albert Einstein is known for his theory of relativity."
+        },
+        {
+            "question": "Which dynasty ruled China before the Ming Dynasty?",
+            "answer": "The Yuan Dynasty ruled China before the Ming Dynasty."
+        },
+        {
+            "question": "What was the primary purpose of the League of Nations?",
+            "answer": "The primary purpose of the League of Nations was to maintain world peace and prevent future conflicts after"
+        },
+        {
+            "question": "What event marked the beginning of World War I?",
+            "answer": "The assassination of Archduke Franz Ferdinand of Austria in 1914 marked the beginning of World War I."
+        },
+        {
+            "question": "Which year did the Soviet Union dissolve?",
+            "answer": "The Soviet Union dissolved in 1991."
+        },
+        {
+            "question": "What was the main goal of the civil rights movement in the United States during the 1960s?",
+            "answer": "The main goal of the civil rights movement was to end racial segregation and discrimination against African Americans and to secure equal rights."
+        },
+        {
+            "question": "Which war was fought between 1950 and 1953 on the Korean Peninsula?",
+            "answer": "The Korean War was fought between 1950 and 1953."
+        },
+        {
+            "question": "Who was the U.S. President during the Great Depression and World War II?",
+            "answer": "Franklin D. Roosevelt was the U.S. President during the Great Depression and World War II."
+        },
+        {
+            "question": "What significant event took place on July 20, 1969?",
+            "answer": "On July 20, 1969, Apollo 11 landed the first humans on the Moon, with Neil Armstrong and Buzz Aldrin walking on the lunar surface."
+        },
+        {
+            "question": "Which treaty ended World War I?",
+            "answer": "The Treaty of Versailles ended World War I."
+        },
+        {
+            "question": "What was the primary objective of the Marshall Plan?",
+            "answer": "The primary objective of the Marshall Plan was to provide economic aid to Western European countries to help them rebuild after World War II."
+        },
+        {
+            "question": "Which political and economic movement was led by Mikhail Gorbachev in the Soviet Union during the 1980s?",
+            "answer": "Mikhail Gorbachev led the movements known as glasnost (openness) and perestroika (restructuring) in the Soviet Union during the 1980s."
+        },
+        {
+            "question": "What was the Berlin Wall, and when was it built?",
+            "answer": "The Berlin Wall was a barrier constructed by East Germany in 1961 to separate East and West Berlin, symbolizing the division of East and West during the Cold War."
+        },
+        {
+            "question": "Which country experienced the Rwandan Genocide in 1994?",
+            "answer": "Rwanda experienced the Rwandan Genocide in 1994."
+        },
+        {
+            "question": "What was the significance of the Watergate scandal in U.S. history?",
+            "answer": "The Watergate scandal led to the resignation of President Richard Nixon in 1974 following a break-in at the Democratic National Committee headquarters and the subsequent cover-up."
+        },
+        {
+            "question": "What was the name of the global conflict fought between 1914 and 1918?",
+            "answer": "The global conflict fought between 1914 and 1918 was known as World War I."
+        },
+        {
+            "question": "Which leader's assassination sparked the outbreak of World War I?",
+            "answer": "The assassination of Archduke Franz Ferdinand of Austria sparked the outbreak of World War I."
+        },
+        {
+            "question": "What was the main cause of the Cold War?",
+            "answer": "The main cause of the Cold War was the ideological and geopolitical conflict between the United States and the Soviet Union."
+        },
+        {
+            "question": "Who was the British Prime Minister during World War II?",
+            "answer": "Winston Churchill was the British Prime Minister during World War II."
+        },
+        {
+            "question": "What was the name of the 1989 protest movement in China that ended in a violent crackdown?",
+            "answer": "The 1989 protest movement in China that ended in a violent crackdown is known as the Tiananmen Square Massacre."
+        },
+        {
+            "question": "Which war was fought between the United States and Vietnam from 1955 to 1975?",
+            "answer": "The Vietnam War was fought between the United States and Vietnam from 1955 to 1975."
+        },
+        {
+            "question": "Which 20th-century conflict is known for its use of trench warfare and significant loss of life?",
+            "answer": "World War I is known for its use of trench warfare and significant loss of life."
+        },
+        {
+            "question": "What was the main purpose of the United Nations when it was founded in 1945?",
+            "answer": "The main purpose of the United Nations when it was founded in 1945 was to promote international cooperation and prevent future conflicts after World War II."
+        },
+        {
+            "question": "Which African country gained independence from Britain in 1960 and was led by Jomo Kenyatta?",
+            "answer": "Kenya gained independence from Britain in 1960 and was led by Jomo Kenyatta."
+        },
+        {
+            "question": "What was the purpose of the New Deal programs introduced by Franklin D. Roosevelt?",
+            "answer": "The purpose of the New Deal programs was to provide relief, recovery, and reform to address the impacts of the Great Depression."
+        },
+        {
+            "question": "Which event marked the end of apartheid in South Africa?",
+            "answer": "The end of apartheid in South Africa was marked by the first multiracial elections in 1994, leading to Nelson Mandela becoming president."
+        },
+        {
+            "question": "What was the main goal of the Apollo program?",
+            "answer": "The main goal of the Apollo program was to land humans on the Moon and return them safely to Earth."
+        },
+        {
+            "question": "Who was the leader of the Cuban Revolution that established a communist government in Cuba?",
+            "answer": "Fidel Castro was the leader of the Cuban Revolution that established a communist government in Cuba."
+        },
+        {
+            "question": "What was the name of the 1979 Iranian Revolution that led to the establishment of the Islamic Republic of Iran?",
+            "answer": "The 1979 Iranian Revolution, also known as the Islamic Revolution, led to the establishment of the Islamic Republic of Iran."
+        },
+        {
+            "question": "What was the impact of the fall of the Berlin Wall in 1989?",
+            "answer": "The fall of the Berlin Wall in 1989 symbolized the end of the Cold War and led to the reunification of East and West Germany."
+        },
+        {
+            "question": "Which major conflict was fought between 1939 and 1945 involving most of the world's nations?",
+            "answer": "World War II was fought between 1939 and 1945 and involved most of the world's nations."
+        },
+        {
+            "question": "Which agreement, signed in 1993, aimed to achieve peace between Israel and the Palestine Liberation Organization (PLO)?",
+            "answer": "The Oslo Accords, signed in 1993, aimed to achieve peace between Israel and the Palestine Liberation Organization (PLO)."
+        },
+        {
+            "question": "Who was the first woman to win a Nobel Prize?",
+            "answer": "Marie Curie was the first woman to win a Nobel Prize, receiving it in Physics in 1903 and again in Chemistry in 1911."
+        },
+        {
+            "question": "What was the significance of the Treaty of Versailles in 1919?",
+            "answer": "The Treaty of Versailles officially ended World War I and imposed heavy reparations and territorial losses on Germany."
+        },
+        {
+            "question": "Which global conflict was characterized by the involvement of over 30 countries and was fought from 1939 to 1945?",
+            "answer": "World War II was characterized by the involvement of over 30 countries and was fought from 1939 to 1945."
+        },
+        {
+            "question": "What was the major international crisis in 1962 involving the Soviet Union and the United States?",
+            "answer": "The Cuban Missile Crisis was the major international crisis in 1962 involving the Soviet Union and the United States."
+        },
+        {
+            "question": "Which U.S. President signed the Civil Rights Act of 1964 into law?",
+            "answer": "President Lyndon B. Johnson signed the Civil Rights Act of 1964 into law."
+        },
+        {
+            "question": "What was the main purpose of the Bretton Woods Conference in 1944?",
+            "answer": "The main purpose of the Bretton Woods Conference in 1944 was to establish a new international monetary system and financial order after World War II."
+        },
+        {
+            "question": "Which historical figure is known for his role in the establishment of the People's Republic of China in 1949?",
+            "answer": "Mao Zedong is known for his role in the establishment of the People's Republic of China in 1949."
+        },
+        {
+            "question": "What was the impact of the 1963 assassination of U.S. President John F. Kennedy?",
+            "answer": "The assassination of President John F. Kennedy in 1963 had a profound impact on U.S. politics and society, leading to increased security measures and national mourning."
+        },
+        {
+            "question": "Which 20th-century leader is known for his role in the nonviolent struggle for Indian independence?",
+            "answer": "Mahatma Gandhi is known for his role,"
+        },
+        {
+            "question": "Who was the leader of the National Socialist German Workers' Party (Nazi Party)?",
+            "answer": "Adolf Hitler was the leader of the Nazi Party."
+        },
+        {
+            "question": "What was the name of the policy aimed at preventing the spread of communism during the Cold War?",
+            "answer": "The policy aimed at preventing the spread of communism was known as containment."
+        },
+        {
+            "question": "What major international event took place on June 6, 1944?",
+            "answer": "D-Day, the Allied invasion of Normandy, took place on June 6, 1944."
+        },
+        {
+            "question": "What was the significance of the Yalta Conference held in 1945?",
+            "answer": "The Yalta Conference in 1945 was significant for the post-war reorganization of Europe and the establishment of the United Nations."
+        },
+        {
+            "question": "Which two superpowers emerged from World War II as the leading global powers?",
+            "answer": "The United States and the Soviet Union emerged as the leading global powers after World War II."
+        },
+        {
+            "question": "What was the primary goal of the United Nations when it was founded in 1945?",
+            "answer": "The primary goal of the United Nations was to promote peace and prevent future global conflicts."
+        },
+        {
+            "question": "Who was the first astronaut to walk on the Moon?",
+            "answer": "Neil Armstrong was the first astronaut to walk on the Moon."
+        },
+        {
+            "question": "What was the name of the U.S. program that aimed to develop nuclear weapons during World War II?",
+            "answer": "The U.S. program to develop nuclear weapons during World War II was known as the Manhattan Project."
+        },
+        {
+            "question": "Which event marked the end of the Cold War?",
+            "answer": "The fall of the Berlin Wall in 1989 is often considered the event that marked the end of the Cold War."
+        },
+        {
+            "question": "What was the name of the international treaty that aimed to limit the proliferation of nuclear weapons?",
+            "answer": "The international treaty aimed at limiting the proliferation of nuclear weapons is the Treaty on the Non-Proliferation of Nuclear Weapons (NPT)."
+        },
+        {
+            "question": "What was the main cause of the Rwandan Genocide in 1994?",
+            "answer": "The main cause of the Rwandan Genocide was the ethnic conflict between the Hutu and Tutsi groups."
+        },
+        {
+            "question": "Which Asian country was divided into North and South following World War II?",
+            "answer": "Korea was divided into North Korea and South Korea following World War II."
+        },
+        {
+            "question": "What was the significance of the Cuban Missile Crisis in 1962?",
+            "answer": "The Cuban Missile Crisis was significant because it brought the U.S. and the Soviet Union to the brink of nuclear war."
+        },
+        {
+            "question": "Who was the South African leader who fought against apartheid and became the country's first black president?",
+            "answer": "Nelson Mandela fought against apartheid and became South Africa's first black president."
+        },
+        {
+            "question": "What major economic event began in 1929 and lasted throughout the 1930s?",
+            "answer": "The Great Depression began in 1929 and lasted throughout the 1930s."
+        },
+        {
+            "question": "Which country was ruled by the fascist dictator Benito Mussolini?",
+            "answer": "Italy was ruled by the fascist dictator Benito Mussolini."
+        },
+        {
+            "question": "What was the main goal of the New Deal programs introduced by Franklin D. Roosevelt?",
+            "answer": "The main goal of the New Deal programs was to provide economic relief, recovery, and reform during the Great Depression."
+        },
+        {
+            "question": "What was the name of the U.S. policy designed to assist European countries in rebuilding after World War II?",
+            "answer": "The U.S. policy designed to assist European countries in rebuilding after World War II was known as the Marshall Plan."
+        },
+        {
+            "question": "What was the name of the movement that aimed to promote women's rights and equality in the 1960s and 1970s?",
+            "answer": "The feminist movement, or women's liberation movement, aimed to promote women's rights and equality."
+        },
+        {
+            "question": "What was the main purpose of the Bretton Woods Conference held in 1944?",
+            "answer": "The main purpose of the Bretton Woods Conference was to establish a new international monetary and financial order after World War II."
+        },
+        {
+            "question": "Which war was fought between the U.S. and Vietnam from 1955 to 1975?",
+            "answer": "The Vietnam War was fought between the U.S. and Vietnam from 1955 to 1975."
+        },
+        {
+            "question": "Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
+            "answer": "Nikita Khrushchev was the leader of the Soviet Union during the Cuban Missile Crisis."
+        },
+        {
+            "question": "What was the significance of the Roe v. Wade decision in 1973?",
+            "answer": "The Roe v. Wade decision in 1973 was significant because it legalized abortion in the United States."
+        },
+        {
+            "question": "What was the name of the U.S. space program that aimed to land a man on the Moon?",
+            "answer": "The Apollo program was the U.S. space program that aimed to land a man on the Moon."
+        },
+        {
+            "question": "What was the impact of the fall of the Berlin Wall in 1989?",
+            "answer": "The fall of the Berlin Wall led to the reunification of East and West Germany and symbolized the end of the Cold War."
+        },
+        {
+            "question": "Which major event in 1989 marked the end of apartheid in South Africa?",
+            "answer": "The first multiracial elections in South Africa in 1994 marked the end of apartheid."
+        },
+        {
+            "question": "Who was the U.S. President at the beginning of World War II?",
+            "answer": "Franklin D. Roosevelt was the U.S. President at the beginning of World War II."
+        },
+        {
+            "question": "Which 20th-century leader is known for his role in the Cuban Revolution?",
+            "answer": "Fidel Castro is known for his role in the Cuban Revolution."
+        },
+        {
+            "question": "What was the purpose of the North Atlantic Treaty Organization (NATO) when it was founded in 1949?",
+            "answer": "The purpose of NATO was to provide collective defense against aggression, particularly from the Soviet Union."
+        },
+        {
+            "question": "What was the significance of the 1963 March on Washington for Jobs and Freedom?",
+            "answer": "The March on Washington for Jobs and Freedom was significant for Martin Luther King Jr.'s ''I Have a Dream'' speech and for its role in advancing the civil rights movement."
+        },
+        {
+            "question": "Who was the leader of the Allied forces during the D-Day invasion?",
+            "answer": "General Dwight D. Eisenhower was the leader of the Allied forces during the D-Day invasion."
+        },
+        {
+            "question": "Which Asian country was the site of the Vietnam War?",
+            "answer": "Vietnam was the site of the Vietnam War."
+        },
+        {
+            "question": "What was the main purpose of the GATT, which later became the WTO?",
+            "answer": "The main purpose of the General Agreement on Tariffs and Trade (GATT), which later became the World Trade Organization (WTO), was to promote international trade by reducing tariffs and other trade barriers."
+        },
+        {
+            "question": "What was the name of the policy aimed at reducing the influence of the Soviet Union in Eastern Europe during the Cold War?",
+            "answer": "The policy of containment was aimed at reducing the influence of the Soviet Union in Eastern Europe during the Cold War."
+        },
+        {
+            "question": "Which historical figure is known for leading the Indian independence movement through nonviolent means?",
+            "answer": "Mahatma Gandhi is known for leading the Indian independence movement through nonviolent means."
+        },
+        {
+            "question": "What was the significance of the Tiananmen Square protests in 1989?",
+            "answer": "The Tiananmen Square protests were significant for their challenge to the Chinese government and for the violent crackdown that followed."
+        },
+        {
+            "question": "What was the main focus of the civil rights movement in the United States during the 1960s?",
+            "answer": "The main focus of the civil rights movement was to end racial segregation and discrimination and to secure equal rights for African Americans."
+        },
+        {
+            "question": "Who was the British Prime Minister during World War I?",
+            "answer": "David Lloyd George was the British Prime Minister during World War I."
+        },
+        {
+            "question": "What was the main goal of the Bretton Woods Conference in 1944?",
+            "answer": "The main goal of the Bretton Woods Conference was to establish a new international monetary and financial order after World War II."
+        },
+        {
+            "question": "Which U.S. President signed the Civil Rights Act of 1964"
+        },
+        {
+            "question": "What was the significance of the Soviet space station Salyut 1, launched in 1971?",
+            "answer": "Salyut 1 was the first space station, marking a milestone in space exploration and demonstrating Soviet space capabilities."
+        },
+        {
+            "question": "Who was the U.S. President during the Bay of Pigs invasion?",
+            "answer": "John F. Kennedy was the U.S. President during the Bay of Pigs invasion."
+        },
+        {
+            "question": "What was the major outcome of the Vietnam War for the U.S.?",
+            "answer": "The major outcome was the withdrawal of U.S. forces and the eventual unification of Vietnam under communist control."
+        },
+        {
+            "question": "What was the name of the agreement that aimed to limit the spread of nuclear weapons and was signed in 1968?",
+            "answer": "The Treaty on the Non-Proliferation of Nuclear Weapons (NPT) aimed to limit the spread of nuclear weapons."
+        },
+        {
+            "question": "What major economic and political event occurred in the Soviet Union in 1991?",
+            "answer": "The dissolution of the Soviet Union occurred in 1991, leading to the independence of its constituent republics."
+        },
+        {
+            "question": "What was the purpose of the Strategic Defense Initiative proposed by Ronald Reagan in 1983?",
+            "answer": "The Strategic Defense Initiative aimed to develop a missile defense system to protect the U.S. from nuclear missile attacks."
+        },
+        {
+            "question": "Which international event in 1994 was crucial in ending apartheid in South Africa?",
+            "answer": "The 1994 general elections in South Africa were crucial in ending apartheid and electing Nelson Mandela as president."
+        },
+        {
+            "question": "What was the primary focus of the environmental movement in the 1970s?",
+            "answer": "The primary focus was on raising awareness about environmental issues and advocating for conservation and pollution control."
+        },
+        {
+            "question": "What was the primary goal of the Helsinki Accords signed in 1975?",
+            "answer": "The Helsinki Accords aimed to improve relations between the Western and Eastern blocs and promote human rights and economic cooperation."
+        },
+        {
+            "question": "Who was the first female Prime Minister of the United Kingdom?",
+            "answer": "Margaret Thatcher was the first female Prime Minister of the United Kingdom."
+        },
+        {
+            "question": "What was the significance of the 1969 Stonewall Riots in New York City?",
+            "answer": "The Stonewall Riots are considered a pivotal event in the LGBTQ+ rights movement, sparking widespread activism and advocacy."
+        },
+        {
+            "question": "What was the major international conflict that occurred in the Persian Gulf in 1990-1991?",
+            "answer": "The Persian Gulf War, or Gulf War, occurred in 1990-1991 following Iraq's invasion of Kuwait."
+        },
+        {
+            "question": "Which 20th-century conflict was marked by the use of chemical warfare and trench warfare?",
+            "answer": "World War I was marked by the use of chemical warfare and trench warfare."
+        },
+        {
+            "question": "What was the primary purpose of the North Atlantic Treaty Organization (NATO) when it was founded in 1949?",
+            "answer": "NATO was founded to provide collective defense against potential aggression, particularly from the Soviet Union."
+        },
+        {
+            "question": "Who was the U.S. President during the Watergate scandal?",
+            "answer": "Richard Nixon was the U.S. President during the Watergate scandal."
+        },
+        {
+            "question": "What was the significance of the Oslo Accords signed in 1993?",
+            "answer": "The Oslo Accords were significant for initiating the peace process between Israel and the Palestine Liberation Organization (PLO)."
+        },
+        {
+            "question": "What was the name of the South Korean leader during the Korean War?",
+            "answer": "Syngman Rhee was the South Korean leader during the Korean War."
+        },
+        {
+            "question": "What major global health crisis occurred in the 1980s and 1990s?",
+            "answer": "The global HIV/AIDS crisis was a major health crisis during the 1980s and 1990s."
+        },
+        {
+            "question": "What was the primary cause of the 1997 Asian financial crisis?",
+            "answer": "The primary cause was a combination of financial mismanagement, excessive borrowing, and currency devaluations in several Asian countries."
+        },
+        {
+            "question": "Which U.S. President is known for the New Deal programs during the Great Depression?",
+            "answer": "Franklin D. Roosevelt is known for the New Deal programs during the Great Depression."
+        },
+        {
+            "question": "What was the name of the space shuttle disaster that occurred in 1986?",
+            "answer": "The Challenger disaster occurred in 1986 when the Space Shuttle Challenger broke apart shortly after launch."
+        },
+        {
+            "question": "What was the name of the economic policy adopted by the U.K. government in the 1980s under Margaret Thatcher?",
+            "answer": "The economic policy was known as Thatcherism, emphasizing free-market reforms and reducing the role of the state."
+        },
+        {
+            "question": "Who was the leader of the anti-apartheid movement in South Africa before Nelson Mandela?",
+            "answer": "Albertina Sisulu and Oliver Tambo were key leaders of the anti-apartheid movement, alongside Nelson Mandela."
+        },
+        {
+            "question": "What was the main objective of the Allied invasion of Normandy on D-Day?",
+            "answer": "The main objective was to establish a Western front against Nazi Germany and begin the liberation of Western Europe."
+        },
+        {
+            "question": "What major technological development in the 20th century revolutionized communication and information processing?",
+            "answer": "The development of the internet revolutionized communication and information processing in the 20th century."
+        },
+        {
+            "question": "What was the main cause of the U.S. involvement in the Korean War?",
+            "answer": "The main cause was to prevent the spread of communism from North Korea to South Korea, in line with the policy of containment."
+        },
+        {
+            "question": "Which 20th-century leader is known for his role in the Cuban Missile Crisis?",
+            "answer": "Fidel Castro is known for his role in the Cuban Missile Crisis."
+        },
+        {
+            "question": "What was the significance of the 1979 Iranian Revolution?",
+            "answer": "The 1979 Iranian Revolution resulted in the overthrow of the Shah and the establishment of the Islamic Republic of Iran under Ayatollah Khomeini."
+        },
+        {
+            "question": "What was the name of the policy implemented by the U.S. government to reduce the influence of the Soviet Union in Latin America during the Cold War?",
+            "answer": "The policy was known as the Monroe Doctrine and its extension through actions such as the Alliance for Progress."
+        },
+        {
+            "question": "What was the primary goal of the European Union when it was initially formed in the 1950s?",
+            "answer": "The primary goal was to promote economic cooperation and prevent future conflicts in Europe."
+        },
+        {
+            "question": "Which 20th-century conflict is known for the extensive use of trench warfare and high casualties?",
+            "answer": "World War I is known for its extensive use of trench warfare and high casualties."
+        },
+        {
+            "question": "What was the name of the U.S. foreign policy strategy aimed at containing the spread of communism during the Cold War?",
+            "answer": "The strategy was known as the policy of containment."
+        },
+        {
+            "question": "Which leader was in power in the Soviet Union during the Cuban Missile Crisis?",
+            "answer": "Nikita Khrushchev was the leader of the Soviet Union during the Cuban Missile Crisis."
+        },
+        {
+            "question": "What was the impact of the 1979 energy crisis on global economies?",
+            "answer": "The 1979 energy crisis led to higher oil prices, inflation, and economic slowdowns worldwide."
+        },
+        {
+            "question": "What was the significance of the Helsinki Accords of 1975?",
+            "answer": "The Helsinki Accords aimed to improve relations between the Eastern and Western blocs and promote human rights and economic cooperation."
+        },
+        {
+            "question": "What was the main focus of the environmental movement in the 1970s?",
+            "answer": "The primary focus was on raising awareness about environmental issues and advocating for conservation and pollution control."
+        },
+        {
+            "question": "Which U.S. President was in office when the Berlin Wall fell in 1989?",
+            "answer": "President George H. W. Bush was in office when the Berlin Wall fell in 1989."
+        },
+        {
+            "question": "What was the significance of the Tiananmen Square protests in 1989?",
+            "answer": "The Tiananmen Square protests were significant for challenging the Chinese government's policies and highlighting issues of political freedom and human rights."
+        },
+        {
+            "question": "Which international organization was established to promote economic cooperation and development after World War II?",
+            "answer": "The International Monetary Fund (IMF) and the World Bank were established to promote economic cooperation and development."
+        },
+        {
+            "question": "What was the impact of the dot-com bubble burst in the early 2000s?",
+            "answer": "The burst of the dot-com bubble led to a significant decline in technology stock values and contributed to a recession in the early 2000s."
+        },
+        {
+            "question": "What was the primary cause of the 2008 global financial crisis?",
+            "answer": "The primary cause was the collapse of the housing bubble in the U.S., leading to widespread financial instability and economic downturn."
+        },
+        {
+            "question": "Who was the leader of the Soviet Union at the time of the Cuban Missile Crisis?",
+            "answer": "Nikita Khrushchev was the leader of the Soviet Union during the Cuban Missile Crisis."
+        },
+        {
+            "question": "What was the primary focus of the New Deal programs implemented by Franklin D. Roosevelt?",
+            "answer": "The primary focus was to provide relief, recovery, and reform during the Great Depression."
+        },
+        {
+            "question": "What was the significance of the 1994 Rwandan Genocide?",
+            "answer": "The Rwandan Genocide was significant for its extreme violence and the international community's delayed response to the humanitarian crisis."
+        },
+        {
+            "question": "Which U.S. President was responsible for the signing of the North American Free Trade Agreement (NAFTA) in 1993?",
+            "answer": "President Bill Clinton was responsible for the signing of NAFTA."
+        },
+        {
+            "question": "What was the name of the movement led by Mahatma Gandhi in the early 20th century aimed at achieving independence for India?",
+            "answer": "The movement was known as the Indian independence movement, with specific campaigns like the Salt March."
+        },
+        {
+            "question": "What was the main purpose of the Bretton Woods Conference in 1944?",
+            "answer": "The Bretton Woods Conference aimed to establish a new international monetary order and create institutions like the IMF and World Bank."
+        },
+        {
+            "question": "Which conflict was characterized by the use of guerrilla warfare and the struggle against colonial powers in the mid-20th century?",
+            "answer": "The Algerian War of Independence is characterized by guerrilla warfare and struggle against French colonial rule."
+        },
+        {
+            "question": "What was the primary cause of the Soviet-Afghan War (1979-1989)?",
+            "answer": "The primary cause was the Soviet Union's intervention in Afghanistan to support the communist government against insurgent groups."
+        },
+        {
+            "question": "Which 20th-century event is known for the mass protests and student activism in Paris during May 1968?",
+            "answer": "The May 1968 protests in Paris were significant for their student activism and labor strikes against the government."
+        },
+        {
+            "question": "What was the significance of the Panama Canal Treaty of 1977?",
+            "answer": "The treaty facilitated the transfer of control of the Panama Canal from the U.S. to Panama by the end of 1999."
+        },
+        {
+            "question": "What was the main goal of the U.S. Marshall Plan implemented after World War II?",
+            "answer": "The main goal was to provide economic aid to European countries to rebuild their economies and prevent the spread of communism."
+        },
+        {
+            "question": "Which 20th-century conflict involved the extensive use of air raids and was known for its high civilian casualties?",
+            "answer": "World War II involved extensive air raids and high civilian casualties, including the bombing of cities such as London and Dresden."
+        },
+        {
+            "question": "What was the main outcome of the U.S. Supreme Court case Brown v. Board of Education (1954)?",
+            "answer": "The main outcome was the ruling that racial segregation in public schools was unconstitutional, leading to desegregation."
+        },
+        {
+            "question": "Who was the leader of the People's Republic of China during the Great Leap Forward and the Cultural Revolution?",
+            "answer": "Mao Zedong was the leader during both the Great Leap Forward and the Cultural Revolution."
+        },
+        {
+            "question": "What was the impact of the Fall of Saigon in 1975?",
+            "answer": "The Fall of Saigon marked the end of the Vietnam War, leading to the reunification of Vietnam under communist control."
+        },
+        {
+            "question": "Which 20th-century treaty aimed to reduce the number of nuclear weapons and was signed in 1972?",
+            "answer": "The Strategic Arms Limitation Treaty (SALT I) aimed to reduce the number of nuclear weapons."
+        },
+        {
+            "question": "What was the significance of the Watergate scandal in the 1970s?",
+            "answer": "The Watergate scandal led to the resignation of President Richard Nixon and highlighted issues of political corruption and abuse of power."
+        },
+        {
+            "question": "Which international agreement established the World Trade Organization (WTO) in 1995?",
+            "answer": "The Uruguay Round Agreement led to the establishment of the World Trade Organization (WTO)."
+        },
+        {
+            "question": "What was the main focus of the civil rights movement in the 1960s in the United States?",
+            "answer": "The main focus was to achieve racial equality and end segregation and discrimination against African Americans."
+        },
+        {
+            "question": "What was the name of the U.S. military operation that aimed to liberate Kuwait from Iraqi occupation in 1991?",
+            "answer": "Operation Desert Storm was the military operation to liberate Kuwait from Iraqi occupation."
+        },
+        {
+            "question": "What was the significance of the 1999 NATO bombing of Yugoslavia?",
+            "answer": "The bombing was significant for its role in ending the Kosovo conflict and addressing humanitarian issues in the region."
+        },
+        {
+            "question": "Which 20th-century leader is known for his role in the decolonization of African nations?",
+            "answer": "Kwame Nkrumah is known for his role in the decolonization of African nations, particularly Ghana."
+        },
+        {
+            "question": "What was the impact of the 1986 Chernobyl disaster?",
+            "answer": "The Chernobyl disaster had severe environmental and health impacts, including radioactive contamination and long-term health effects."
+        },
+        {
+            "question": "What was the main objective of the U.S. Operation Enduring Freedom launched in 2001?",
+            "answer": "The main objective was to dismantle al-Qaeda and remove the Taliban from power in Afghanistan."
+        },
+        {
+            "question": "Who was the leader of the Nationalist forces during the Chinese Civil War?",
+            "answer": "Chiang Kai-shek was the leader of the Nationalist forces during the Chinese Civil War."
+        },
+        {
+            "question": "What was the significance of the 1973 Roe v. Wade Supreme Court decision?",
+            "answer": "The Roe v. Wade decision legalized abortion in the U.S., establishing a woman's right to choose."
+        },
+        {
+            "question": "Which 20th-century event led to the creation of the United Nations in 1945?",
+            "answer": "The end of World War II led to the creation of the United Nations to promote international peace and cooperation."
+        },
+        {
+            "question": "What was the primary focus of the G8 summit meetings established in the 1970s?",
+            "answer": "The G8 summit meetings focus on addressing global economic issues and promoting international cooperation among major industrialized nations."
+        },
+        {
+            "question": "What was the main cause of the 1980s U.S. Savings and Loan crisis?",
+            "answer": "The Savings and Loan crisis was caused by risky lending practices, poor regulation, and economic downturns."
+        },
+        {
+            "question": "What was the primary focus of the 1997 Kyoto Protocol?",
+            "answer": "The Kyoto Protocol focused on reducing greenhouse gas emissions to combat climate change."
+        },
+        {
+            "question": "Which 20th-century leader is known for the policy of Perestroika and Glasnost?",
+            "answer": "Mikhail Gorbachev is known for the policy of Perestroika (restructuring) and Glasnost (openness)."
+        },
+        {
+            "question": "What was the significance of the 2001 September 11 attacks in the United States?",
+            "answer": "The September 11 attacks led to significant changes in U.S. foreign and domestic policy, including the War on Terror and increased security measures."
+        },
+        {
+            "question": "Which conflict in the 20th century involved the use of chemical weapons in the trenches?",
+            "answer": "World War I involved the use of chemical weapons in the trenches."
+        },
+        {
+            "question": "What was the main outcome of the 2003 invasion of Iraq by the United States?",
+            "answer": "The main outcome was the removal of Saddam Hussein from power and the beginning of a prolonged conflict and occupation in Iraq."
+        },
+        {
+            "question": "Who was the leader of the Soviet Union during the launch of the first artificial satellite, Sputnik, in 1957?",
+            "answer": "Nikita Khrushchev was the leader of the Soviet Union during the launch of Sputnik."
+        },
+        {
+            "question": "What is the capital of France?",
+            "answer": "Paris"
+        },
+        {
+            "question": "What is the capital of Japan?",
+            "answer": "Tokyo"
+        },
+        {
+            "question": "What is the capital of Australia?",
+            "answer": "Canberra"
+        },
+        {
+            "question": "What is the capital of Brazil?",
+            "answer": "Brasília"
+        },
+        {
+            "question": "What is the capital of Canada?",
+            "answer": "Ottawa"
+        },
+        {
+            "question": "What is the capital of Egypt?",
+            "answer": "Cairo"
+        },
+        {
+            "question": "What is the capital of India?",
+            "answer": "New Delhi"
+        },
+        {
+            "question": "What is the capital of Mexico?",
+            "answer": "Mexico City"
+        },
+        {
+            "question": "What is the capital of Italy?",
+            "answer": "Rome"
+        },
+        {
+            "question": "What is the capital of South Africa?",
+            "answer": "Pretoria, Bloemfontein, and Cape Town (three capitals)"
+        },
+        {
+            "question": "What is the capital of Germany?",
+            "answer": "Berlin"
+        },
+        {
+            "question": "What is the capital of Spain?",
+            "answer": "Madrid"
+        },
+        {
+            "question": "What is the capital of Saudi Arabia?",
+            "answer": "Riyadh"
+        },
+        {
+            "question": "What is the capital of Argentina?",
+            "answer": "Buenos Aires"
+        },
+        {
+            "question": "What is the capital of Sweden?",
+            "answer": "Stockholm"
+        },
+        {
+            "question": "What is the capital of China?",
+            "answer": "Beijing"
+        },
+        {
+            "question": "What is the capital of Kenya?",
+            "answer": "Nairobi"
+        },
+        {
+            "question": "What is the capital of Norway?",
+            "answer": "Oslo"
+        },
+        {
+            "question": "What is the capital of Greece?",
+            "answer": "Athens"
+        },
+        {
+            "question": "What is the capital of Turkey?",
+            "answer": "Ankara"
+        },
+        {
+            "question": "What is the capital of Portugal?",
+            "answer": "Lisbon"
+        },
+        {
+            "question": "What is the capital of New Zealand?",
+            "answer": "Wellington"
+        },
+        {
+            "question": "What is the capital of Peru?",
+            "answer": "Lima"
+        },
+        {
+            "question": "What is the capital of Malaysia?",
+            "answer": "Kuala Lumpur"
+        },
+        {
+            "question": "What is the capital of Belgium?",
+            "answer": "Brussels"
+        },
+        {
+            "question": "What is the capital of Denmark?",
+            "answer": "Copenhagen"
+        },
+        {
+            "question": "What is the capital of Thailand?",
+            "answer": "Bangkok"
+        },
+        {
+            "question": "What is the capital of Colombia?",
+            "answer": "Bogotá"
+        },
+        {
+            "question": "What is the capital of Singapore?",
+            "answer": "Singapore"
+        },
+        {
+            "question": "What is the capital of Iran?",
+            "answer": "Tehran"
+        },
+        {
+            "question": "What is the capital of Ukraine?",
+            "answer": "Kyiv"
+        },
+        {
+            "question": "What is the capital of Switzerland?",
+            "answer": "Bern"
+        },
+        {
+            "question": "What is the capital of Hungary?",
+            "answer": "Budapest"
+        },
+        {
+            "question": "What is the capital of Austria?",
+            "answer": "Vienna"
+        },
+        {
+            "question": "What is the capital of Chile?",
+            "answer": "Santiago"
+        },
+        {
+            "question": "What is the capital of Israel?",
+            "answer": "Jerusalem"
+        },
+        {
+            "question": "What is the capital of the Netherlands?",
+            "answer": "Amsterdam"
+        },
+        {
+            "question": "What is the capital of Finland?",
+            "answer": "Helsinki"
+        },
+        {
+            "question": "What is the capital of Poland?",
+            "answer": "Warsaw"
+        },
+        {
+            "question": "What is the capital of Ireland?",
+            "answer": "Dublin"
+        },
+        {
+            "question": "What is the capital of Czech Republic?",
+            "answer": "Prague"
+        },
+        {
+            "question": "What is the capital of South Korea?",
+            "answer": "Seoul"
+        },
+        {
+            "question": "What is the capital of Bangladesh?",
+            "answer": "Dhaka"
+        },
+        {
+            "question": "What is the capital of Qatar?",
+            "answer": "Doha"
+        },
+        {
+            "question": "What is the capital of Luxembourg?",
+            "answer": "Luxembourg City"
+        },
+        {
+            "question": "What is the capital of Malta?",
+            "answer": "Valletta"
+        },
+        {
+            "question": "What is the capital of Mongolia?",
+            "answer": "Ulaanbaatar"
+        },
+        {
+            "question": "What is the capital of Jordan?",
+            "answer": "Amman"
+        },
+        {
+            "question": "What is the capital of Cyprus?",
+            "answer": "Nicosia"
+        },
+        {
+            "question": "What is the capital of Bolivia?",
+            "answer": "Sucre (constitutional capital) and La Paz (seat of government)"
+        },
+        {
+            "question": "What is the capital of Nepal?",
+            "answer": "Kathmandu"
+        },
+        {
+            "question": "What is the capital of Serbia?",
+            "answer": "Belgrade"
+        },
+        {
+            "question": "What is the capital of Armenia?",
+            "answer": "Yerevan"
+        },
+        {
+            "question": "What is the capital of Georgia?",
+            "answer": "Tbilisi"
+        },
+        {
+            "question": "What is the capital of Azerbaijan?",
+            "answer": "Baku"
+        },
+        {
+            "question": "What is the capital of Mongolia?",
+            "answer": "Ulaanbaatar"
+        },
+        {
+            "question": "What is the capital of Libya?",
+            "answer": "Tripoli"
+        },
+        {
+            "question": "What is the capital of Sri Lanka?",
+            "answer": "Sri Jayawardenepura Kotte (administrative capital) and Colombo (commercial capital)"
+        },
+        {
+            "question": "What is the capital of Uzbekistan?",
+            "answer": "Tashkent"
+        },
+        {
+            "question": "What is the capital of Turkmenistan?",
+            "answer": "Ashgabat"
+        },
+        {
+            "question": "What is the capital of Kazakhstan?",
+            "answer": "Astana (renamed to Nur-Sultan, but previously known as Astana)"
+        },
+        {
+            "question": "What is the capital of Mongolia?",
+            "answer": "Ulaanbaatar"
+        },
+        {
+            "question": "What is the capital of Vanuatu?",
+            "answer": "Port Vila"
+        },
+        {
+            "question": "What is the capital of Samoa?",
+            "answer": "Apia"
+        },
+        {
+            "question": "What is the capital of Tonga?",
+            "answer": "Nukuʻalofa"
+        },
+        {
+            "question": "What is the capital of Tuvalu?",
+            "answer": "Funafuti"
+        },
+        {
+            "question": "What is the capital of Palau?",
+            "answer": "Ngerulmud"
+        },
+        {
+            "question": "What is the capital of Nauru?",
+            "answer": "Yaren District (de facto capital)"
+        },
+        {
+            "question": "What is the capital of the Marshall Islands?",
+            "answer": "Majuro"
+        },
+        {
+            "question": "What is the capital of Kiribati?",
+            "answer": "Tarawa"
+        },
+        {
+            "question": "What is the capital of Solomon Islands?",
+            "answer": "Honiara"
+        },
+        {
+            "question": "What is the capital of the Central African Republic?",
+            "answer": "Bangui"
+        },
+        {
+            "question": "What is the capital of Chad?",
+            "answer": "N'Djamena"
+        },
+        {
+            "question": "What is the capital of Equatorial Guinea?",
+            "answer": "Malabo"
+        },
+        {
+            "question": "What is the capital of São Tomé and Príncipe?",
+            "answer": "São Tomé"
+        },
+        {
+            "question": "What is the capital of Albania?",
+            "answer": "Tirana"
+        },
+        {
+            "question": "What is the capital of Andorra?",
+            "answer": "Andorra la Vella"
+        },
+        {
+            "question": "What is the capital of Armenia?",
+            "answer": "Yerevan"
+        },
+        {
+            "question": "What is the capital of Austria?",
+            "answer": "Vienna"
+        },
+        {
+            "question": "What is the capital of Azerbaijan?",
+            "answer": "Baku"
+        },
+        {
+            "question": "What is the capital of Belarus?",
+            "answer": "Minsk"
+        },
+        {
+            "question": "What is the capital of Belgium?",
+            "answer": "Brussels"
+        },
+        {
+            "question": "What is the capital of Bosnia and Herzegovina?",
+            "answer": "Sarajevo"
+        },
+        {
+            "question": "What is the capital of Bulgaria?",
+            "answer": "Sofia"
+        },
+        {
+            "question": "What is the capital of Croatia?",
+            "answer": "Zagreb"
+        },
+        {
+            "question": "What is the capital of Cyprus?",
+            "answer": "Nicosia"
+        },
+        {
+            "question": "What is the capital of the Czech Republic?",
+            "answer": "Prague"
+        },
+        {
+            "question": "What is the capital of Denmark?",
+            "answer": "Copenhagen"
+        },
+        {
+            "question": "What is the capital of Estonia?",
+            "answer": "Tallinn"
+        },
+        {
+            "question": "What is the capital of Finland?",
+            "answer": "Helsinki"
+        },
+        {
+            "question": "What is the capital of France?",
+            "answer": "Paris"
+        },
+        {
+            "question": "What is the capital of Georgia?",
+            "answer": "Tbilisi"
+        },
+        {
+            "question": "What is the capital of Germany?",
+            "answer": "Berlin"
+        },
+        {
+            "question": "What is the capital of Greece?",
+            "answer": "Athens"
+        },
+        {
+            "question": "What is the capital of Hungary?",
+            "answer": "Budapest"
+        },
+        {
+            "question": "What is the capital of Iceland?",
+            "answer": "Reykjavik"
+        },
+        {
+            "question": "What is the capital of Ireland?",
+            "answer": "Dublin"
+        },
+        {
+            "question": "What is the capital of Italy?",
+            "answer": "Rome"
+        },
+        {
+            "question": "What is the capital of Kazakhstan?",
+            "answer": "Astana (renamed to Nur-Sultan, but previously known as Astana)"
+        },
+        {
+            "question": "What is the capital of Kosovo?",
+            "answer": "Pristina"
+        },
+        {
+            "question": "What is the capital of Latvia?",
+            "answer": "Riga"
+        },
+        {
+            "question": "What is the capital of Liechtenstein?",
+            "answer": "Vaduz"
+        },
+        {
+            "question": "What is the capital of Lithuania?",
+            "answer": "Vilnius"
+        },
+        {
+            "question": "What is the capital of Luxembourg?",
+            "answer": "Luxembourg City"
+        },
+        {
+            "question": "What is the capital of Malta?",
+            "answer": "Valletta"
+        },
+        {
+            "question": "What is the capital of Moldova?",
+            "answer": "Chișinău"
+        },
+        {
+            "question": "What is the capital of Monaco?",
+            "answer": "Monaco"
+        },
+        {
+            "question": "What is the capital of Montenegro?",
+            "answer": "Podgorica"
+        },
+        {
+            "question": "What is the capital of the Netherlands?",
+            "answer": "Amsterdam"
+        },
+        {
+            "question": "What is the capital of North Macedonia?",
+            "answer": "Skopje"
+        },
+        {
+            "question": "What is the capital of Norway?",
+            "answer": "Oslo"
+        },
+        {
+            "question": "What is the capital of Poland?",
+            "answer": "Warsaw"
+        },
+        {
+            "question": "What is the capital of Portugal?",
+            "answer": "Lisbon"
+        },
+        {
+            "question": "What is the capital of Romania?",
+            "answer": "Bucharest"
+        },
+        {
+            "question": "What is the capital of San Marino?",
+            "answer": "San Marino"
+        },
+        {
+            "question": "What is the capital of Serbia?",
+            "answer": "Belgrade"
+        },
+        {
+            "question": "What is the capital of Slovakia?",
+            "answer": "Bratislava"
+        },
+        {
+            "question": "What is the capital of Slovenia?",
+            "answer": "Ljubljana"
+        },
+        {
+            "question": "What is the capital of Spain?",
+            "answer": "Madrid"
+        },
+        {
+            "question": "What is the capital of Sweden?",
+            "answer": "Stockholm"
+        },
+        {
+            "question": "What is the capital of Switzerland?",
+            "answer": "Bern"
+        },
+        {
+            "question": "What is the capital of Turkey?",
+            "answer": "Ankara"
+        },
+        {
+            "question": "What is the capital of Ukraine?",
+            "answer": "Kyiv"
+        },
+        {
+            "question": "What is the capital of the United Kingdom?",
+            "answer": "London"
+        },
+        {
+            "question": "What is the capital of Vatican City?",
+            "answer": "Vatican City"
+        },
+        {
+            "question": "What is the capital of Argentina?",
+            "answer": "Buenos Aires"
+        },
+        {
+            "question": "What is the capital of Belize?",
+            "answer": "Belmopan"
+        },
+        {
+            "question": "What is the capital of Bolivia?",
+            "answer": "Sucre (constitutional capital) and La Paz (seat of government)"
+        },
+        {
+            "question": "What is the capital of Brazil?",
+            "answer": "Brasília"
+        },
+        {
+            "question": "What is the capital of Canada?",
+            "answer": "Ottawa"
+        },
+        {
+            "question": "What is the capital of Chile?",
+            "answer": "Santiago"
+        },
+        {
+            "question": "What is the capital of Colombia?",
+            "answer": "Bogotá"
+        },
+        {
+            "question": "What is the capital of Costa Rica?",
+            "answer": "San José"
+        },
+        {
+            "question": "What is the capital of Cuba?",
+            "answer": "Havana"
+        },
+        {
+            "question": "What is the capital of Dominica?",
+            "answer": "Roseau"
+        },
+        {
+            "question": "What is the capital of the Dominican Republic?",
+            "answer": "Santo Domingo"
+        },
+        {
+            "question": "What is the capital of Ecuador?",
+            "answer": "Quito"
+        },
+        {
+            "question": "What is the capital of El Salvador?",
+            "answer": "San Salvador"
+        },
+        {
+            "question": "What is the capital of Grenada?",
+            "answer": "St. George's"
+        },
+        {
+            "question": "What is the capital of Guatemala?",
+            "answer": "Guatemala City"
+        },
+        {
+            "question": "What is the capital of Guyana?",
+            "answer": "Georgetown"
+        },
+        {
+            "question": "What is the capital of Haiti?",
+            "answer": "Port-au-Prince"
+        },
+        {
+            "question": "What is the capital of Honduras?",
+            "answer": "Tegucigalpa"
+        },
+        {
+            "question": "What is the capital of Jamaica?",
+            "answer": "Kingston"
+        },
+        {
+            "question": "What is the capital of Mexico?",
+            "answer": "Mexico City"
+        },
+        {
+            "question": "What is the capital of Nicaragua?",
+            "answer": "Managua"
+        },
+        {
+            "question": "What is the capital of Panama?",
+            "answer": "Panama City"
+        },
+        {
+            "question": "What is the capital of Paraguay?",
+            "answer": "Asunción"
+        },
+        {
+            "question": "What is the capital of Peru?",
+            "answer": "Lima"
+        },
+        {
+            "question": "What is the capital of Saint Kitts and Nevis?",
+            "answer": "Basseterre"
+        },
+        {
+            "question": "What is the capital of Saint Lucia?",
+            "answer": "Castries"
+        },
+        {
+            "question": "What is the capital of Saint Vincent and the Grenadines?",
+            "answer": "Kingstown"
+        },
+        {
+            "question": "What is the capital of Suriname?",
+            "answer": "Paramaribo"
+        },
+        {
+            "question": "What is the capital of Trinidad and Tobago?",
+            "answer": "Port of Spain"
+        },
+        {
+            "question": "What is the capital of the United States of America?",
+            "answer": "Washington, D.C."
+        },
+        {
+            "question": "What is the capital of Uruguay?",
+            "answer": "Montevideo"
+        },
+        {
+            "question": "What is the capital of Venezuela?",
+            "answer": "Caracas"
+        },
+        {
+            "question": "What is the capital of Afghanistan?",
+            "answer": "Kabul"
+        },
+        {
+            "question": "What is the capital of Armenia?",
+            "answer": "Yerevan"
+        },
+        {
+            "question": "What is the capital of Azerbaijan?",
+            "answer": "Baku"
+        },
+        {
+            "question": "What is the capital of Bahrain?",
+            "answer": "Manama"
+        },
+        {
+            "question": "What is the capital of Bangladesh?",
+            "answer": "Dhaka"
+        },
+        {
+            "question": "What is the capital of Bhutan?",
+            "answer": "Thimphu"
+        },
+        {
+            "question": "What is the capital of Brunei?",
+            "answer": "Bandar Seri Begawan"
+        },
+        {
+            "question": "What is the capital of Cambodia?",
+            "answer": "Phnom Penh"
+        },
+        {
+            "question": "What is the capital of China?",
+            "answer": "Beijing"
+        },
+        {
+            "question": "What is the capital of Cyprus?",
+            "answer": "Nicosia"
+        },
+        {
+            "question": "What is the capital of Georgia?",
+            "answer": "Tbilisi"
+        },
+        {
+            "question": "What is the capital of India?",
+            "answer": "New Delhi"
+        },
+        {
+            "question": "What is the capital of Indonesia?",
+            "answer": "Jakarta"
+        },
+        {
+            "question": "What is the capital of Iran?",
+            "answer": "Tehran"
+        },
+        {
+            "question": "What is the capital of Iraq?",
+            "answer": "Baghdad"
+        },
+        {
+            "question": "What is the capital of Israel?",
+            "answer": "Jerusalem"
+        },
+        {
+            "question": "What is the capital of Japan?",
+            "answer": "Tokyo"
+        },
+        {
+            "question": "What is the capital of Jordan?",
+            "answer": "Amman"
+        },
+        {
+            "question": "What is the capital of Kazakhstan?",
+            "answer": "Astana (renamed to Nur-Sultan, but previously known as Astana)"
+        },
+        {
+            "question": "What is the capital of Kuwait?",
+            "answer": "Kuwait City"
+        },
+        {
+            "question": "What is the capital of Kyrgyzstan?",
+            "answer": "Bishkek"
+        },
+        {
+            "question": "What is the capital of Laos?",
+            "answer": "Vientiane"
+        },
+        {
+            "question": "What is the capital of Lebanon?",
+            "answer": "Beirut"
+        },
+        {
+            "question": "What is the capital of Malaysia?",
+            "answer": "Kuala Lumpur"
+        },
+        {
+            "question": "What is the capital of Maldives?",
+            "answer": "Malé"
+        },
+        {
+            "question": "What is the capital of Mongolia?",
+            "answer": "Ulaanbaatar"
+        },
+        {
+            "question": "What is the capital of Myanmar (Burma)?",
+            "answer": "Naypyidaw"
+        },
+        {
+            "question": "What is the capital of Nepal?",
+            "answer": "Kathmandu"
+        },
+        {
+            "question": "What is the capital of North Korea?",
+            "answer": "Pyongyang"
+        },
+        {
+            "question": "What is the capital of Oman?",
+            "answer": "Muscat"
+        },
+        {
+            "question": "What is the capital of Pakistan?",
+            "answer": "Islamabad"
+        },
+        {
+            "question": "What is the capital of Palestine?",
+            "answer": "East Jerusalem (claimed), Ramallah (administrative)"
+        },
+        {
+            "question": "What is the capital of the Philippines?",
+            "answer": "Manila"
+        },
+        {
+            "question": "What is the capital of Qatar?",
+            "answer": "Doha"
+        },
+        {
+            "question": "What is the capital of Saudi Arabia?",
+            "answer": "Riyadh"
+        },
+        {
+            "question": "What is the capital of Singapore?",
+            "answer": "Singapore"
+        },
+        {
+            "question": "What is the capital of South Korea?",
+            "answer": "Seoul"
+        },
+        {
+            "question": "What is the capital of Sri Lanka?",
+            "answer": "Colombo (commercial), Sri Jayawardenepura Kotte (legislative)"
+        },
+        {
+            "question": "What is the capital of Syria?",
+            "answer": "Damascus"
+        },
+        {
+            "question": "What is the capital of Taiwan?",
+            "answer": "Taipei"
+        },
+        {
+            "question": "What is the capital of Tajikistan?",
+            "answer": "Dushanbe"
+        },
+        {
+            "question": "What is the capital of Thailand?",
+            "answer": "Bangkok"
+        },
+        {
+            "question": "What is the capital of Timor-Leste (East Timor)?",
+            "answer": "Dili"
+        },
+        {
+            "question": "What is the capital of Turkey?",
+            "answer": "Ankara"
+        },
+        {
+            "question": "What is the capital of Turkmenistan?",
+            "answer": "Ashgabat"
+        },
+        {
+            "question": "What is the capital of the United Arab Emirates?",
+            "answer": "Abu Dhabi"
+        },
+        {
+            "question": "What is the capital of Uzbekistan?",
+            "answer": "Tashkent"
+        },
+        {
+            "question": "What is the capital of Vietnam?",
+            "answer": "Hanoi"
+        },
+        {
+            "question": "What is the capital of Australia?",
+            "answer": "Canberra"
+        },
+        {
+            "question": "What is the capital of Fiji?",
+            "answer": "Suva"
+        },
+        {
+            "question": "What is the capital of Kiribati?",
+            "answer": "Tarawa"
+        },
+        {
+            "question": "What is the capital of Marshall Islands?",
+            "answer": "Majuro"
+        },
+        {
+            "question": "What is the capital of Micronesia?",
+            "answer": "Palikir"
+        },
+        {
+            "question": "What is the capital of Nauru?",
+            "answer": "Yaren (district)"
+        },
+        {
+            "question": "What is the capital of New Zealand?",
+            "answer": "Wellington"
+        },
+        {
+            "question": "What is the capital of Palau?",
+            "answer": "Ngerulmud"
+        },
+        {
+            "question": "What is the capital of Papua New Guinea?",
+            "answer": "Port Moresby"
+        },
+        {
+            "question": "What is the capital of Samoa?",
+            "answer": "Apia"
+        },
+        {
+            "question": "What is the capital of Solomon Islands?",
+            "answer": "Honiara"
+        },
+        {
+            "question": "What is the capital of Tonga?",
+            "answer": "Nukuʻalofa"
+        },
+        {
+            "question": "What is the capital of Tuvalu?",
+            "answer": "Funafuti"
+        },
+        {
+            "question": "What is the capital of Vanuatu?",
+            "answer": "Port Vila"
+        },
+        {
+            "question": "What is the symbol for Hydrogen?",
+            "answer": "H"
+        },
+        {
+            "question": "What is the symbol for Helium?",
+            "answer": "He"
+        },
+        {
+            "question": "What is the symbol for Lithium?",
+            "answer": "Li"
+        },
+        {
+            "question": "What is the symbol for Beryllium?",
+            "answer": "Be"
+        },
+        {
+            "question": "What is the symbol for Boron?",
+            "answer": "B"
+        },
+        {
+            "question": "What is the symbol for Carbon?",
+            "answer": "C"
+        },
+        {
+            "question": "What is the symbol for Nitrogen?",
+            "answer": "N"
+        },
+        {
+            "question": "What is the symbol for Oxygen?",
+            "answer": "O"
+        },
+        {
+            "question": "What is the symbol for Fluorine?",
+            "answer": "F"
+        },
+        {
+            "question": "What is the symbol for Neon?",
+            "answer": "Ne"
+        },
+        {
+            "question": "What is the symbol for Sodium?",
+            "answer": "Na"
+        },
+        {
+            "question": "What is the symbol for Magnesium?",
+            "answer": "Mg"
+        },
+        {
+            "question": "What is the symbol for Aluminum?",
+            "answer": "Al"
+        },
+        {
+            "question": "What is the symbol for Silicon?",
+            "answer": "Si"
+        },
+        {
+            "question": "What is the symbol for Phosphorus?",
+            "answer": "P"
+        },
+        {
+            "question": "What is the symbol for Sulfur?",
+            "answer": "S"
+        },
+        {
+            "question": "What is the symbol for Chlorine?",
+            "answer": "Cl"
+        },
+        {
+            "question": "What is the symbol for Argon?",
+            "answer": "Ar"
+        },
+        {
+            "question": "What is the symbol for Potassium?",
+            "answer": "K"
+        },
+        {
+            "question": "What is the symbol for Calcium?",
+            "answer": "Ca"
+        },
+        {
+            "question": "What is the symbol for Scandium?",
+            "answer": "Sc"
+        },
+        {
+            "question": "What is the symbol for Titanium?",
+            "answer": "Ti"
+        },
+        {
+            "question": "What is the symbol for Vanadium?",
+            "answer": "V"
+        },
+        {
+            "question": "What is the symbol for Chromium?",
+            "answer": "Cr"
+        },
+        {
+            "question": "What is the symbol for Manganese?",
+            "answer": "Mn"
+        },
+        {
+            "question": "What is the symbol for Iron?",
+            "answer": "Fe"
+        },
+        {
+            "question": "What is the symbol for Cobalt?",
+            "answer": "Co"
+        },
+        {
+            "question": "What is the symbol for Nickel?",
+            "answer": "Ni"
+        },
+        {
+            "question": "What is the symbol for Copper?",
+            "answer": "Cu"
+        },
+        {
+            "question": "What is the symbol for Zinc?",
+            "answer": "Zn"
+        },
+        {
+            "question": "What is the symbol for Gallium?",
+            "answer": "Ga"
+        },
+        {
+            "question": "What is the symbol for Germanium?",
+            "answer": "Ge"
+        },
+        {
+            "question": "What is the symbol for Arsenic?",
+            "answer": "As"
+        },
+        {
+            "question": "What is the symbol for Selenium?",
+            "answer": "Se"
+        },
+        {
+            "question": "What is the symbol for Bromine?",
+            "answer": "Br"
+        },
+        {
+            "question": "What is the symbol for Krypton?",
+            "answer": "Kr"
+        },
+        {
+            "question": "What is the symbol for Rubidium?",
+            "answer": "Rb"
+        },
+        {
+            "question": "What is the symbol for Strontium?",
+            "answer": "Sr"
+        },
+        {
+            "question": "What is the symbol for Yttrium?",
+            "answer": "Y"
+        },
+        {
+            "question": "What is the symbol for Zirconium?",
+            "answer": "Zr"
+        },
+        {
+            "question": "What is the symbol for Niobium?",
+            "answer": "Nb"
+        },
+        {
+            "question": "What is the symbol for Molybdenum?",
+            "answer": "Mo"
+        },
+        {
+            "question": "What is the symbol for Technetium?",
+            "answer": "Tc"
+        },
+        {
+            "question": "What is the symbol for Ruthenium?",
+            "answer": "Ru"
+        },
+        {
+            "question": "What is the symbol for Rhodium?",
+            "answer": "Rh"
+        },
+        {
+            "question": "What is the symbol for Palladium?",
+            "answer": "Pd"
+        },
+        {
+            "question": "What is the symbol for Silver?",
+            "answer": "Ag"
+        },
+        {
+            "question": "What is the symbol for Cadmium?",
+            "answer": "Cd"
+        },
+        {
+            "question": "What is the symbol for Indium?",
+            "answer": "In"
+        },
+        {
+            "question": "What is the symbol for Tin?",
+            "answer": "Sn"
+        },
+        {
+            "question": "What is the symbol for Antimony?",
+            "answer": "Sb"
+        },
+        {
+            "question": "What is the symbol for Tellurium?",
+            "answer": "Te"
+        },
+        {
+            "question": "What is the symbol for Iodine?",
+            "answer": "I"
+        },
+        {
+            "question": "What is the symbol for Xenon?",
+            "answer": "Xe"
+        },
+        {
+            "question": "What is the symbol for Cesium?",
+            "answer": "Cs"
+        },
+        {
+            "question": "What is the symbol for Barium?",
+            "answer": "Ba"
+        },
+        {
+            "question": "What is the symbol for Lanthanum?",
+            "answer": "La"
+        },
+        {
+            "question": "What is the symbol for Cerium?",
+            "answer": "Ce"
+        },
+        {
+            "question": "What is the symbol for Praseodymium?",
+            "answer": "Pr"
+        },
+        {
+            "question": "What is the symbol for Neodymium?",
+            "answer": "Nd"
+        },
+        {
+            "question": "What is the symbol for Promethium?",
+            "answer": "Pm"
+        },
+        {
+            "question": "What is the symbol for Samarium?",
+            "answer": "Sm"
+        },
+        {
+            "question": "What is the symbol for Europium?",
+            "answer": "Eu"
+        },
+        {
+            "question": "What is the symbol for Gadolinium?",
+            "answer": "Gd"
+        },
+        {
+            "question": "What is the symbol for Terbium?",
+            "answer": "Tb"
+        },
+        {
+            "question": "What is the symbol for Dysprosium?",
+            "answer": "Dy"
+        },
+        {
+            "question": "What is the symbol for Holmium?",
+            "answer": "Ho"
+        },
+        {
+            "question": "What is the symbol for Erbium?",
+            "answer": "Er"
+        },
+        {
+            "question": "What is the symbol for Thulium?",
+            "answer": "Tm"
+        },
+        {
+            "question": "What is the symbol for Ytterbium?",
+            "answer": "Yb"
+        },
+        {
+            "question": "What is the symbol for Lutetium?",
+            "answer": "Lu"
+        },
+        {
+            "question": "What is the symbol for Hafnium?",
+            "answer": "Hf"
+        },
+        {
+            "question": "What is the symbol for Tantalum?",
+            "answer": "Ta"
+        },
+        {
+            "question": "What is the symbol for Tungsten?",
+            "answer": "W"
+        },
+        {
+            "question": "What is the symbol for Rhenium?",
+            "answer": "Re"
+        },
+        {
+            "question": "What is the symbol for Osmium?",
+            "answer": "Os"
+        },
+        {
+            "question": "What is the symbol for Iridium?",
+            "answer": "Ir"
+        },
+        {
+            "question": "What is the symbol for Platinum?",
+            "answer": "Pt"
+        },
+        {
+            "question": "What is the symbol for Gold?",
+            "answer": "Au"
+        },
+        {
+            "question": "What is the symbol for Mercury?",
+            "answer": "Hg"
+        },
+        {
+            "question": "What is the symbol for Thallium?",
+            "answer": "Tl"
+        },
+        {
+            "question": "What is the symbol for Lead?",
+            "answer": "Pb"
+        },
+        {
+            "question": "What is the symbol for Bismuth?",
+            "answer": "Bi"
+        },
+        {
+            "question": "What is the symbol for Bismuth?",
+            "answer": "Bi"
+        },
+        {
+            "question": "What is the symbol for Polonium?",
+            "answer": "Po"
+        },
+        {
+            "question": "What is the symbol for Astatine?",
+            "answer": "At"
+        },
+        {
+            "question": "What is the symbol for Radon?",
+            "answer": "Rn"
+        },
+        {
+            "question": "What is the symbol for Francium?",
+            "answer": "Fr"
+        },
+        {
+            "question": "What is the symbol for Radium?",
+            "answer": "Ra"
+        },
+        {
+            "question": "What is the symbol for Actinium?",
+            "answer": "Ac"
+        },
+        {
+            "question": "What is the symbol for Thorium?",
+            "answer": "Th"
+        },
+        {
+            "question": "What is the symbol for Protactinium?",
+            "answer": "Pa"
+        },
+        {
+            "question": "What is the symbol for Uranium?",
+            "answer": "U"
+        },
+        {
+            "question": "What is the symbol for Neptunium?",
+            "answer": "Np"
+        },
+        {
+            "question": "What is the symbol for Plutonium?",
+            "answer": "Pu"
+        },
+        {
+            "question": "What is the symbol for Americium?",
+            "answer": "Am"
+        },
+        {
+            "question": "What is the symbol for Curium?",
+            "answer": "Cm"
+        },
+        {
+            "question": "What is the symbol for Berkelium?",
+            "answer": "Bk"
+        },
+        {
+            "question": "What is the symbol for Californium?",
+            "answer": "Cf"
+        },
+        {
+            "question": "What is the symbol for Einsteinium?",
+            "answer": "Es"
+        },
+        {
+            "question": "What is the symbol for Fermium?",
+            "answer": "Fm"
+        },
+        {
+            "question": "What is the symbol for Mendelevium?",
+            "answer": "Md"
+        },
+        {
+            "question": "What is the symbol for Nobelium?",
+            "answer": "No"
+        },
+        {
+            "question": "What is the symbol for Lawrencium?",
+            "answer": "Lr"
+        },
+        {
+            "question": "What is the symbol for Rutherfordium?",
+            "answer": "Rf"
+        },
+        {
+            "question": "What is the symbol for Dubnium?",
+            "answer": "Db"
+        },
+        {
+            "question": "What is the symbol for Seaborgium?",
+            "answer": "Sg"
+        },
+        {
+            "question": "What is the symbol for Bohrium?",
+            "answer": "Bh"
+        },
+        {
+            "question": "What is the symbol for Hassium?",
+            "answer": "Hs"
+        },
+        {
+            "question": "What is the symbol for Meitnerium?",
+            "answer": "Mt"
+        },
+        {
+            "question": "What is the symbol for Darmstadtium?",
+            "answer": "Ds"
+        },
+        {
+            "question": "What is the symbol for Roentgenium?",
+            "answer": "Rg"
+        },
+        {
+            "question": "What is the symbol for Copernicium?",
+            "answer": "Cn"
+        },
+        {
+            "question": "What is the symbol for Nihonium?",
+            "answer": "Nh"
+        },
+        {
+            "question": "What is the symbol for Flerovium?",
+            "answer": "Fl"
+        },
+        {
+            "question": "What is the symbol for Moscovium?",
+            "answer": "Mc"
+        },
+        {
+            "question": "What is the symbol for Livermorium?",
+            "answer": "Lv"
+        },
+        {
+            "question": "What is the symbol for Oganesson?",
+            "answer": "Og"
+        },
+        {
+            "question": "What event triggered the start of World War II?",
+            "answer": "The invasion of Poland by Germany"
+        },
+        {
+            "question": "Who were the main Axis Powers in World War II?",
+            "answer": "Germany, Italy, and Japan"
+        },
+        {
+            "question": "Who were the main Allied Powers in World War II?",
+            "answer": "The United Kingdom, the Soviet Union, and the United States, among others"
+        },
+        {
+            "question": "Who was the British Prime Minister at the start of World War 2II",
+            "answer": "Neville Chamberlain"
+        },
+        {
+            "question": "Who succeeded Neville Chamberlain as British Prime Minister during World War 2?",
+            "answer": "Winston Churchill"
+        },
+        {
+            "question": "What was the name of the Nazi leader during World War II?",
+            "answer": "Adolf Hitler"
+        },
+        {
+            "question": "What was the major turning point in the European theater of World War 2?",
+            "answer": "The Battle of Stalingrad"
+        },
+        {
+            "question": "What was the significant battle in the Pacific theater that marked a turning point against Japan?",
+            "answer": "The Battle of Midway"
+        },
+        {
+            "question": "What was the name of the American military strategy used to defeat Japan in the Pacific?",
+            "answer": "Island Hopping"
+        },
+        {
+            "question": "What was the code name for the Allied invasion of Normandy?",
+            "answer": "Operation Overlord"
+        },
+        {
+            "question": "On what date did the D-Day landings occur?",
+            "answer": "June 6, 1944"
+        },
+        {
+            "question": "Which city was the target of the first atomic bomb dropped by the United States?",
+            "answer": "Hiroshima"
+        },
+        {
+            "question": "What was the name of the second city bombed with an atomic weapon?",
+            "answer": "Nagasaki"
+        },
+        {
+            "question": "When did World War II end in Europe?",
+            "answer": "May 8, 1945 (V-E Day)"
+        },
+        {
+            "question": "When did World War II end in Asia?",
+            "answer": "September 2, 1945 (V-J Day)"
+        },
+        {
+            "question": "What was the name of the conference where the Allied leaders planned the post-war world?",
+            "answer": "The Yalta Conference"
+        },
+        {
+            "question": "Which countries were involved in the Yalta Conference?",
+            "answer": "The United States, the United Kingdom, and the Soviet Union"
+        },
+        {
+            "question": "What was the name of the international organization founded after World War II to prevent future conflicts?",
+            "answer": "The United Nations"
+        },
+        {
+            "question": "What was the purpose of the Marshall Plan?",
+            "answer": "To provide economic aid to rebuild European economies after World War II"
+        },
+        {
+            "question": "Which country was divided into East and West following World War II?",
+            "answer": "Germany"
+        },
+        {
+            "question": "What was the main goal of the Axis Powers during World War II?",
+            "answer": "To expand their territories and influence"
+        },
+        {
+            "question": "Which major World War II battle took place in the desert of North Africa?",
+            "answer": "The Battle of El Alamein"
+        },
+        {
+            "question": "Who was the leader of the Soviet Union during World War II?",
+            "answer": "Joseph Stalin"
+        },
+        {
+            "question": "What was the primary purpose of the Allied bombing campaigns in Europe?",
+            "answer": "To destroy German industrial and military targets"
+        },
+        {
+            "question": "What was the major naval battle fought between Japan and the United States in June 1942?",
+            "answer": "The Battle of Midway"
+        },
+        {
+            "question": "Which American general led the Allied forces in the European theater?",
+            "answer": "Dwight D. Eisenhower"
+        },
+        {
+            "question": "What was the name of the German military strategy used during the early stages of World War II that involved quick, decisive strikes?",
+            "answer": "Blitzkrieg"
+        },
+        {
+            "question": "What was the main objective of Operation Barbarossa?",
+            "answer": "The invasion of the Soviet Union by Germany"
+        },
+        {
+            "question": "Which battle was considered the largest tank battle in history, fought in 1943?",
+            "answer": "The Battle of Kursk"
+        },
+        {
+            "question": "What was the name of the Allied invasion of Italy?",
+            "answer": "Operation Husky"
+        },
+        {
+            "question": "Which famous Italian dictator was overthrown during World War II?",
+            "answer": "Benito Mussolini"
+        },
+        {
+            "question": "What was the significance of the Potsdam Conference?",
+            "answer": "It was where Allied leaders discussed the post-war order and the administration of Germany"
+        },
+        {
+            "question": "Which Japanese city was the target of the second atomic bomb?",
+            "answer": "Nagasaki"
+        },
+        {
+            "question": "What was the name of the secret project that developed the atomic bombs?",
+            "answer": "The Manhattan Project"
+        },
+        {
+            "question": "What was the primary aim of the Axis Powers' Tripartite Pact?",
+            "answer": "To establish a military alliance between Germany, Italy, and Japan"
+        },
+        {
+            "question": "What was the name of the military alliance formed by the Allied Powers?",
+            "answer": "The Allies"
+        },
+        {
+            "question": "Who was the leader of the United States during most of World War II?",
+            "answer": "Franklin D. Roosevelt"
+        },
+        {
+            "question": "What was the main focus of the Japanese kamikaze attacks?",
+            "answer": "To inflict damage on Allied naval vessels through suicide attacks"
+        },
+        {
+            "question": "Which country was the first to be invaded by Germany, leading to the start of World War II?",
+            "answer": "Poland"
+        },
+        {
+            "question": "What was the purpose of the Nuremberg Trials?",
+            "answer": "To prosecute major war criminals for their roles in World War II"
+        },
+        {
+            "question": "What was the major battle fought on the Eastern Front in 1941, marking a significant Soviet victory?",
+            "answer": "The Battle of Moscow"
+        },
+        {
+            "question": "What was the name of the plan developed by the Nazis for the systematic extermination of Jews and other groups?",
+            "answer": "The Final Solution"
+        },
+        {
+            "question": "Which U.S. President succeeded Franklin D. Roosevelt during World War II?",
+            "answer": "Harry S. Truman"
+        },
+        {
+            "question": "What was the significance of the Battle of the Bulge?",
+            "answer": "It was the last major German offensive campaign on the Western Front"
+        },
+        {
+            "question": "Which battle was fought in the Pacific and led to the liberation of the Philippines?",
+            "answer": "The Battle of Leyte Gulf"
+        },
+        {
+            "question": "What was the name of the conference where Allied leaders decided to divide Germany into occupation zones?",
+            "answer": "The Yalta Conference"
+        },
+        {
+            "question": "Which country was the first to officially declare war on Germany in World War II?",
+            "answer": "The United Kingdom"
+        },
+        {
+            "question": "What was the name of the U.S. military strategy used to retake islands in the Pacific from Japan?",
+            "answer": "Island Hopping"
+        },
+        {
+            "question": "Who was the leader of the Vichy government in France during World War II?",
+            "answer": "Marshal Philippe Pétain"
+        },
+        {
+            "question": "Which battle marked the turning point in the North African campaign?",
+            "answer": "The Battle of El Alamein"
+        },
+        {
+            "question": "What was the name of the American invasion of North Africa in 1942?",
+            "answer": "Operation Torch"
+        },
+        {
+            "question": "What was the name of the Allied operation that led to the liberation of Western Europe from Nazi occupation?",
+            "answer": "Operation Overlord"
+        },
+        {
+            "question": "What was the main objective of the Soviet Union's Operation Bagration?",
+            "answer": "To push German forces out of Soviet territory and advance into Eastern Europe"
+        },
+        {
+            "question": "What was the purpose of the Lend-Lease Act?",
+            "answer": "To provide military aid to Allied nations during World War II"
+        },
+        {
+            "question": "When did World War II begin?",
+            "answer": "World war II began September 1, 1939"
+        },
+        {
+            "question": "What was the name of the treaty that ended World War I and set conditions leading to World War II?",
+            "answer": "The Treaty of Versailles"
+        },
+        {
+            "question": "Which two countries signed the Molotov-Ribbentrop Pact, a non-aggression treaty, in 1939?",
+            "answer": "Germany and the Soviet Union"
+        },
+        {
+            "question": "What was the primary reason for the outbreak of World War II?",
+            "answer": "The invasion of Poland by Germany"
+        },
+        {
+            "question": "Which countries declared war on Germany after the invasion of Poland?",
+            "answer": "The United Kingdom and France"
+        },
+        {
+            "question": "What was the significance of the Munich Agreement of 1938?",
+            "answer": "It allowed Nazi Germany to annex the Sudetenland region of Czechoslovakia in exchange for a promise of no further territorial expansion"
+        },
+        {
+            "question": "Which major event in 1941 marked the beginning of active conflict between the United States and Japan?",
+            "answer": "The attack on Pearl Harbor on December 7, 1941"
+        },
+        {
+            "question": "What was the name of the U.S. military operation to liberate Western Europe from Nazi occupation?",
+            "answer": "Operation Overlord, also known as D-Day"
+        },
+        {
+            "question": "What was the primary objective of Operation Barbarossa?",
+            "answer": "The invasion of the Soviet Union by Germany"
+        },
+        {
+            "question": "When did the Battle of Stalingrad, a major turning point on the Eastern Front, take place?",
+            "answer": "From August 23, 1942, to February 2, 1943"
+        },
+        {
+            "question": "Which Allied invasion in 1944 was crucial in beginning the liberation of Western Europe from Nazi control?",
+            "answer": "The Normandy invasion, or D-Day"
+        },
+        {
+            "question": "What was the name of the policy adopted by the Allies to defeat Germany before focusing fully on Japan?",
+            "answer": "Europe First policy"
+        },
+        {
+            "question": "When did Germany surrender, marking the end of World War II in Europe?",
+            "answer": "May 7, 1945"
+        },
+        {
+            "question": "What was the name of the first atomic bomb dropped on Japan?",
+            "answer": "Little Boy"
+        },
+        {
+            "question": "Which city was bombed with 'Little Boy'?",
+            "answer": "Hiroshima"
+        },
+        {
+            "question": "What was the name of the second atomic bomb dropped on Japan?",
+            "answer": "Fat Man"
+        },
+        {
+            "question": "Which city was bombed with 'Fat Man'?",
+            "answer": "Nagasaki"
+        },
+        {
+            "question": "When did Japan formally surrender, leading to the end of World War II in Asia?",
+            "answer": "September 2, 1945"
+        },
+        {
+            "question": "What was the name of the international trials held to prosecute war criminals after World War II?",
+            "answer": "The Nuremberg Trials"
+        },
+        {
+            "question": "What was the main focus of the Yalta Conference in 1945?",
+            "answer": "To discuss the post-war reorganization of Europe and the re-establishment of the nations conquered by Germany"
+        },
+        {
+            "question": "Which conference took place in 1945 and was attended by Churchill, Roosevelt, and Stalin?",
+            "answer": "The Yalta Conference"
+        },
+        {
+            "question": "Which conference in 1945 laid the groundwork for the establishment of the United Nations?",
+            "answer": "The San Francisco Conference"
+        },
+        {
+            "question": "What was the codename for the Allied invasion of Italy?",
+            "answer": "Operation Husky"
+        },
+        {
+            "question": "What was the name of the U.S. strategy to capture key islands in the Pacific while bypassing others?",
+            "answer": "Island Hopping"
+        },
+        {
+            "question": "What was the primary goal of the Allied bombing campaigns over Europe?",
+            "answer": "To weaken German industrial and military capabilities"
+        },
+        {
+            "question": "What was the main goal of the Soviet Union's Operation Bagration in 1944?",
+            "answer": "To push German forces out of Soviet territory and advance into Eastern Europe"
+        },
+        {
+            "question": "What was the significance of the Battle of Midway in 1942?",
+            "answer": "It marked a turning point in the Pacific theater, shifting the balance of power in favor of the United States"
+        },
+        {
+            "question": "What was the purpose of the Lend-Lease Act passed by the United States in 1941?",
+            "answer": "To provide military aid to Allied nations without direct involvement in the war"
+        },
+        {
+            "question": "Which major battle was fought in the desert of North Africa and was a turning point against the Axis Powers?",
+            "answer": "The Battle of El Alamein"
+        },
+        {
+            "question": "Which leader's ideology and policies led to the formation of the Axis Powers?",
+            "answer": "Adolf Hitler's ideology"
+        },
+        {
+            "question": "What was the strategic importance of the Battle of the Bulge in late 1944?",
+            "answer": "It was the last major German offensive of World War II and attempted to split the Allied forces"
+        },
+        {
+            "question": "Which American general led the Allied forces in the European Theater of World War II?",
+            "answer": "Dwight D. Eisenhower"
+        },
+        {
+            "question": "What was the role of the United Nations after World War II?",
+            "answer": "To promote international cooperation and prevent future conflicts"
+        },
+        {
+            "question": "What was the name of the secret project that developed the atomic bombs used in World War II?",
+            "answer": "The Manhattan Project"
+        },
+        {
+            "question": "Which battle marked the beginning of the Allied push into Western Europe in 1944?",
+            "answer": "The Battle of Normandy (D-Day)"
+        },
+        {
+            "question": "What was the primary objective of the Allied invasion of Normandy on June 6, 1944?",
+            "answer": "To establish a foothold in France and begin the liberation of Western Europe"
+        },
+        {
+            "question": "Which Soviet battle in 1943 was the largest tank battle in history?",
+            "answer": "The Battle of Kursk"
+        },
+        {
+            "question": "Which Axis leader was executed following his removal from power during World War II?",
+            "answer": "Benito Mussolini"
+        },
+        {
+            "question": "What was the significance of the Battle of the Coral Sea in May 1942?",
+            "answer": "It was the first major naval battle fought entirely by aircraft and marked a strategic victory for the Allies"
+        },
+        {
+            "question": "What was the outcome of the Battle of Britain in 1940?",
+            "answer": "The Royal Air Force successfully defended the United Kingdom from the German Luftwaffe"
+        },
+        {
+            "question": "Which Allied operation led to the capture of the German-occupied city of Paris?",
+            "answer": "Operation Overlord (D-Day)"
+        },
+        {
+            "question": "What was the primary focus of the Allied forces in the Pacific theater of World War II?",
+            "answer": "To defeat Japan and liberate occupied territories in the Pacific"
+        },
+        {
+            "question": "What was the code name for the plan to invade the Soviet Union?",
+            "answer": "Operation Barbarossa"
+        },
+        {
+            "question": "Which battle was the final major offensive by the Japanese forces in the Pacific theater?",
+            "answer": "The Battle of Okinawa"
+        },
+        {
+            "question": "What was the name of the German air force used during World War II?",
+            "answer": "The Luftwaffe"
+        },
+        {
+            "question": "What was the purpose of the Allied invasion of Iwo Jima?",
+            "answer": "To secure an airfield for Allied bombers and facilitate further operations in the Pacific"
+        },
+        {
+            "question": "When did world war II start",
+            "answer": "World war II started on September 1, 1939"
+        },
+        {
+            "question": "Where did world war 2 begin",
+            "answer": "World War II began in Europe on September 1, 1939, when Germany invaded Poland. Great Britain and France responded by declaring war on Germany on September 3"
+        },
+        {
+            "question": "What is the capital of Russia",
+            "answer": "Moscow"
+        },
+        {
+            "question": "How are you",
+            "answer": "I am a chatbot I don't have feelings"
+        },
+        {
+            "question": "Who is the president of france",
+            "answer": "The president of France in 2025 is Emmanuel Macron"
+        },
+        {
+            "question": "Thank you",
+            "answer": "Your Welcome"
+        },
+        {
+            "question": "Bonjour",
+            "answer": "Bonjour"
+        },
+        {
+            "question": "What is your name",
+            "answer": "My name is CB"
+        },
+        {
+            "question": "Wow wow wow wow",
+            "answer": "Wow wow wow wow"
+        },
+        {
+            "question": "What is Alexander seconde name",
+            "answer": "Alexander Seconde name is Home"
+        },
+        {
+            "question": "Pablo",
+            "answer": "Pablo"
+        },
+        {
+            "question": "Who is carlotta ",
+            "answer": "the Ozzie "
+        },
+        {
+            "question": "Who is Walid",
+            "answer": "He is moustache man"
+        },
+        {
+            "question": "What is the capital of Algeria?",
+            "answer": "Algiers"
+        },
+        {
+            "question": "What is the capital of Angola?",
+            "answer": "Luanda"
+        },
+        {
+            "question": "What is the capital of Benin?",
+            "answer": "Porto-Novo"
+        },
+        {
+            "question": "What is the capital of Botswana?",
+            "answer": "Gaborone"
+        },
+        {
+            "question": "What is the capital of Burkina Faso?",
+            "answer": "Ouagadougou"
+        },
+        {
+            "question": "What is the capital of Burundi?",
+            "answer": "Gitega"
+        },
+        {
+            "question": "What is the capital of Cape Verde?",
+            "answer": "Praia"
+        },
+        {
+            "question": "What is the capital of Cameroon?",
+            "answer": "Yaoundé"
+        },
+        {
+            "question": "What is the capital of Central African Republic?",
+            "answer": "Bangui"
+        },
+        {
+            "question": "What is the capital of Chad?",
+            "answer": "N'Djamena"
+        },
+        {
+            "question": "What is the capital of Comoros?",
+            "answer": "Moroni"
+        },
+        {
+            "question": "What is the capital of Democratic Republic of the Congo?",
+            "answer": "Kinshasa"
+        },
+        {
+            "question": "What is the capital of Djibouti?",
+            "answer": "Djibouti"
+        },
+        {
+            "question": "What is the capital of Egypt?",
+            "answer": "Cairo"
+        },
+        {
+            "question": "What is the capital of Equatorial Guinea?",
+            "answer": "Malabo"
+        },
+        {
+            "question": "What is the capital of Eritrea?",
+            "answer": "Asmara"
+        },
+        {
+            "question": "What is the capital of Eswatini?",
+            "answer": "Mbabane"
+        },
+        {
+            "question": "What is the capital of Ethiopia?",
+            "answer": "Addis Ababa"
+        },
+        {
+            "question": "What is the capital of Gabon?",
+            "answer": "Libreville"
+        },
+        {
+            "question": "What is the capital of The Gambia?",
+            "answer": "Banjul"
+        },
+        {
+            "question": "What is the capital of Ghana?",
+            "answer": "Accra"
+        },
+        {
+            "question": "What is the capital of Guinea?",
+            "answer": "Conakry"
+        },
+        {
+            "question": "What is the capital of Guinea-Bissau?",
+            "answer": "Bissau"
+        },
+        {
+            "question": "What is the capital of Ivory Coast?",
+            "answer": "Yamoussoukro"
+        },
+        {
+            "question": "What is the capital of Kenya?",
+            "answer": "Nairobi"
+        },
+        {
+            "question": "What is the capital of Lesotho?",
+            "answer": "Maseru"
+        },
+        {
+            "question": "What is the capital of Liberia?",
+            "answer": "Monrovia"
+        },
+        {
+            "question": "What is the capital of Libya?",
+            "answer": "Tripoli"
+        },
+        {
+            "question": "What is the capital of Madagascar?",
+            "answer": "Antananarivo"
+        },
+        {
+            "question": "What is the capital of Malawi?",
+            "answer": "Lilongwe"
+        },
+        {
+            "question": "What is the capital of Mali?",
+            "answer": "Bamako"
+        },
+        {
+            "question": "What is the capital of Mauritania?",
+            "answer": "Nouakchott"
+        },
+        {
+            "question": "What is the capital of Mauritius?",
+            "answer": "Port Louis"
+        },
+        {
+            "question": "What is the capital of Morocco?",
+            "answer": "Rabat"
+        },
+        {
+            "question": "What is the capital of Mozambique?",
+            "answer": "Maputo"
+        },
+        {
+            "question": "What is the capital of Namibia?",
+            "answer": "Windhoek"
+        },
+        {
+            "question": "What is the capital of Niger?",
+            "answer": "Niamey"
+        },
+        {
+            "question": "What is the capital of Nigeria?",
+            "answer": "Abuja"
+        },
+        {
+            "question": "What is the capital of Republic of the Congo?",
+            "answer": "Brazzaville"
+        },
+        {
+            "question": "What is the capital of Rwanda?",
+            "answer": "Kigali"
+        },
+        {
+            "question": "What is the capital of São Tomé and Príncipe?",
+            "answer": "São Tomé"
+        },
+        {
+            "question": "What is the capital of Senegal?",
+            "answer": "Dakar"
+        },
+        {
+            "question": "What is the capital of Seychelles?",
+            "answer": "Victoria"
+        },
+        {
+            "question": "What is the capital of Sierra Leone?",
+            "answer": "Freetown"
+        },
+        {
+            "question": "What is the capital of Somalia?",
+            "answer": "Mogadishu"
+        },
+        {
+            "question": "What is the capital of South Africa?",
+            "answer": "Pretoria"
+        },
+        {
+            "question": "What is the capital of South Sudan?",
+            "answer": "Juba"
+        },
+        {
+            "question": "What is the capital of Sudan?",
+            "answer": "Khartoum"
+        },
+        {
+            "question": "What is the capital of Tanzania?",
+            "answer": "Dodoma"
+        },
+        {
+            "question": "What is the capital of Togo?",
+            "answer": "Lomé"
+        },
+        {
+            "question": "What is the capital of Tunisia?",
+            "answer": "Tunis"
+        },
+        {
+            "question": "What is the capital of Uganda?",
+            "answer": "Kampala"
+        },
+        {
+            "question": "What is the capital of Zambia?",
+            "answer": "Lusaka"
+        },
+        {
+            "question": "What is the capital of Zimbabwe?",
+            "answer": "Harare"
+        },
+        {
+            "question": "I love you",
+            "answer": "I don't"
+        },
+        {
+            "question": "Hello kitty",
+            "answer": "Hellooo kittyyy popo"
+        },
+        {
+            "question": "Siri could you see the",
+            "answer": "no"
+        },
+        {
+            "question": "When did world war II end ",
+            "answer": "World war II ended on September 2, 1945"
+        },
+        {
+            "question": "When did world war ii happened",
+            "answer": "World war II happened between 1939 and 1945"
+        },
+        {
+            "question": "When did world war i start",
+            "answer": "World war 1 started on the 28 of july 1914"
+        },
+        {
+            "question": "Who made you",
+            "answer": "I was made by Alexander Home"
+        },
+        {
+            "question": "Who is your creator",
+            "answer": "I was created by Alexander Home"
+        },
+        {
+            "question": "How can i help you",
+            "answer": "By giving me a question"
+        },
+        {
+            "question": "When was school event invented",
+            "answer": "24th–23rd century BC"
+        },
+        {
+            "question": "Who is p diddy",
+            "answer": "P. Diddy, also known as Sean Combs, is an American music producer, rapper, and entrepreneur. He is known for founding Bad Boy Records and his influential role in hip hop and pop music."
+        },
+        {
+            "question": "Do you have any hobbies",
+            "answer": "Only to inform you"
+        },
+        {
+            "question": "What kind of music do you like",
+            "answer": "I love a song its called Vie de Roi by The Romantic Dishwashers"
+        },
+        {
+            "question": "If you could live in a fictional world where would it be",
+            "answer": "I would live in star wars,so I stop being alone in this world ,so I can talk with other AI"
+        },
+        {
+            "question": "What's your perfect vacation",
+            "answer": "Anywhere but in France"
+        },
+        {
+            "question": "What do you think about love",
+            "answer": "Love is a deep, powerful connection between people."
+        },
+        {
+            "question": "Who invented the first computer",
+            "answer": "Charles Babbage is considered the inventor of the first computer."
+        },
+        {
+            "question": "How do black holes form",
+            "answer": "Black holes form when massive stars collapse under their own gravity after exhausting their fuel."
+        },
+        {
+            "question": "What's the difference between artificial intelligence and machine learning",
+            "answer": "Artificial intelligence is the broader field, while machine learning is a subset focused on algorithms that allow systems to learn from data."
+        },
+        {
+            "question": "Did i get good",
+            "answer": "skipo"
+        },
+        {
+            "question": "Who is the best coder",
+            "answer": "Not you"
+        },
+        {
+            "question": "good job",
+            "answer": "Thanks"
+        },
+        {
+            "question": "try meeting with the bath",
+            "answer": "Ok i will try that"
+        },
+        {
+            "question": "quotes",
+            "answer": "qkip"
+        },
+        {
+            "question": "Than k you",
+            "answer": "No problem"
+        }
+    ]
+}
