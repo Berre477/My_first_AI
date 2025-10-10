@@ -15,10 +15,19 @@ try:
     from Chatbot_text import chatbot_text
     embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
-    from translate_file import load_database_,save_database
+
 except KeyboardInterrupt:
     pass
 
+def load_database(file_path: str):
+    with open(file_path, 'r') as file:
+        data: dict = json.load(file)
+        return data
+
+
+def save_database(file_path: str, data: dict):
+    with open(file_path, 'w') as file:
+        json.dump(data, file, indent=2)
 
 def print_and_speech(speech):
     print(f"CB: {speech}")
@@ -56,7 +65,7 @@ def greetings():
 class VoiceChatbot:
     def __init__(self, database_path=None):
         self.database_path = database_path or 'Database.json'
-        self.database: dict = load_database_(self.database_path)
+        self.database: dict = load_database(self.database_path)
         self.recognizer = sr.Recognizer()
         self.math_reco = MathReco()
         self.timer_class = Timer()

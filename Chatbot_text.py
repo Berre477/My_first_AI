@@ -1,26 +1,46 @@
-import sys
-from Timer_ask import Timer
-from News import get_bbc_headlines
-from Math_reco import MathReco
-import datetime
-from sentence_transformers import SentenceTransformer, util
-from Text_to_speech import text_to_speech
-import os
-from translate_file import load_database_,save_database
+try:
+    import sys
+    import speech_recognition as sr
+    from datetime import datetime
+    from Math_reco import MathReco
+    from Text_to_speech import text_to_speech
+    import json
+    from Timer_ask import Timer
+    from News import get_bbc_headlines
+    import os
+    from googletrans import Translator
+    translator = Translator()
+    from transformers import pipeline
+    from sentence_transformers import SentenceTransformer, util
+    embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
+    os.environ["TOKENIZERS_PARALLELISM"] = "false"
+    import json
+except KeyboardInterrupt:
+    pass
 
-embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+
+def load_database(file_path: str):
+    with open(file_path, 'r') as file:
+        data: dict = json.load(file)
+        return data
+
+
+def save_database(file_path: str, data: dict):
+    with open(file_path, 'w') as file:
+        json.dump(data, file, indent=2)
+
+
 class Chatbot_text:
-    def __init__(self):
+    def __init__(self,database_path=None):
         self.math_model = MathReco()
-        self.database_path = self.database_path or 'Database.json'
-        self.database: dict = load_database_(self.database_path)
-
+        self.database_path = database_path or 'Database.json'
+        self.database: dict = load_database(self.database_path)
         self.timer_class = Timer()
         self.text = False
 
 
-    def process_text(self,text):
+    def process_text(self):
         while True:
             speech_text=input("You: ").lower()
 
@@ -63,10 +83,34 @@ class Chatbot_text:
                 tuple(time_patterns): self.handle_time,
                 tuple(farewell_patterns): self.turn_off,
                 tuple(news_patterns): self.handle_news}
+            matched = False
+            for patterns, func in data.items():
+                if any(pattern in speech_text for pattern in patterns):
+                    matched = True
+                    if func in [self.calculate_math, self.start_timer]:
+                        func(speech_text)
+                    else:
+                        func()
+                    break  # Important to break on first match
 
+            if not matched:
+                best_match, confidence = self.retrieve_relevant_question_nlp(speech_text, self.database)
+                if confidence > 0.6:
+                    print(best_match['answer'])
+                else:
+                    print("I dont know this could ,you teach me")
+                    self.learn_new_answer(speech_text)
 
+    def greetings(self):
+        hour = datetime.now().hour
+        if hour < 12:
+            return 'Good morning, how can I be of help to you?'
+        elif hour < 18:
+            return "Good afternoon,how can I be of help to you?"
+        else:
+            return "Good evening, how can I be of help to you?"
     
-    def print_and_speech(text:str):
+    def print_and_speech(self,text:str):
          print(text)
          text_to_speech(text,"en")
 
@@ -75,7 +119,26 @@ class Chatbot_text:
         sys.exit()
 
     @staticmethod
-    def retrieve_relevant_question_nlp(query, database):
+    def handle_time():
+        time = datetime.now()
+        time_response = f'It is {time.strftime("%I")}:{time.strftime("%M")} {time.strftime("%p")}'
+        print(time_response)
+        return
+
+    @staticmethod
+    def handle_news():
+        bbc_head = get_bbc_headlines()
+        if bbc_head:
+            for idx, news in enumerate(bbc_head, 1):
+                print(f"{idx}. {news}")
+            return
+        else:
+            print("No news to display at the moment.")
+            return
+
+
+
+    def retrieve_relevant_question_nlp(self,query, database):
         questions = [entry['question'] for entry in database['questions']]
 
         if not questions:
@@ -92,6 +155,43 @@ class Chatbot_text:
         confidence = similarities[0][best_match_index].item()
 
         return best_match, confidence
+
+    #Start timer
+    def start_timer(self,speech):
+        self.timer_class.set_timer(speech.split())
+        self.timer_class.translate_time()
+        print(self.timer_class.return_start_time())
+        self.timer_class.start_timer()
+        return
+
+    #Stopping timer
+    def stop_timer(self,speech):
+        if self.timer_class.is_running:
+            self.timer_class.stop_timer()
+            print("Stopping timer")
+            return
+        else:
+            print("No timer is running")
+            return
+    def calculate_math(self,speech):
+        result = self.math_model.main_math(speech)
+        print(f"CB: {result}")
+        return
+    def learn_new_answer(self, question):
+        new_answer = input('Write the answer or type "skip" to skip: ')
+
+        if new_answer.lower() != 'skip':
+            self.database['questions'].append({
+                'question': question,
+                'answer': new_answer
+            })
+            save_database(self.database_path, self.database)
+            print('Thank you for teaching me!')
+        else:
+            print("Skipped Learning")
+
+t=Chatbot_text()
+t.process_text()
 
 
 
