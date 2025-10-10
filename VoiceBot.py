@@ -10,41 +10,19 @@ try:
     import os
     from googletrans import Translator
     translator = Translator()
-    from Chatbot_text import chatbot_text
     from transformers import pipeline
     from sentence_transformers import SentenceTransformer, util
     from Chatbot_text import chatbot_text
     embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
-
+    from translate_file import load_database_,save_database
 except KeyboardInterrupt:
     pass
-
-
-
-
 
 
 def print_and_speech(speech):
     print(f"CB: {speech}")
     text_to_speech(speech,"en")
-
-
-def load_database(file_path):
-    try:
-        with open(file_path, 'r') as file:
-            data = json.load(file)
-        if 'questions' not in data:
-            raise ValueError("Invalid database format. 'questions' key missing.")
-        return data
-    except (FileNotFoundError, ValueError) as e:
-        print(f"Error loading database: {e}")
-        return {"questions": []}
-
-
-def save_database(file_path, data):
-    with open(file_path, 'w') as file:
-        json.dump(data, file, indent=2)
 
 
 def retrieve_relevant_question_nlp(query, database):
@@ -78,14 +56,11 @@ def greetings():
 class VoiceChatbot:
     def __init__(self, database_path=None):
         self.database_path = database_path or 'Database.json'
-        self.database: dict = load_database(self.database_path)
+        self.database: dict = load_database_(self.database_path)
         self.recognizer = sr.Recognizer()
         self.math_reco = MathReco()
         self.timer_class = Timer()
         self.text = False
-
-
-
 
     def process_command(self, speech):
         if not speech:
@@ -101,7 +76,7 @@ class VoiceChatbot:
 
         # Time patterns
         time_patterns = [
-            "what time", "current time", "time now", "tell me time","what is the time"
+            "what time", "current time", "time now", "tell me time","what is the time","what time is it"
         ]
 
         #News paterns
@@ -117,7 +92,7 @@ class VoiceChatbot:
        # Greeting patterns
         greeting_patterns = [
             "hello", "hi ", "hey", "greetings", "howdy", "good morning", "good afternoon",
-            "good evening", "what's up",
+            "good evening"
         ]
 
        #Math patterns
@@ -131,73 +106,73 @@ class VoiceChatbot:
         stop_timer_patterns=[
             "stop the timer","timer stop"
         ]
+        data={
+            tuple(start_timer_patterns) : self.start_timer,
+              tuple(stop_timer_patterns):self.stop_timer,
+              tuple(math_patterns):self.calculate_math,
+                tuple(greeting_patterns):self.greetings,
+              tuple(time_patterns):self.handle_time,
+              tuple(farewell_patterns):self.turn_off,
+            tuple(news_patterns):self.handle_news }
 
+        matched = False
+        for patterns, func in data.items():
+            if any(pattern in speech_lower for pattern in patterns):
+                matched = True
+                if func in [self.calculate_math, self.start_timer]:
+                    func(speech_lower)
+                else:
+                    func()
+                break  # Important to break on first match
 
-
-
-        # Check for time patterns
-        if any(pattern in speech_lower for pattern in time_patterns):
-            VoiceChatbot.handle_time()
-            return
-
-        # Check for news patterns
-        if any(pattern in speech_lower for pattern in news_patterns):
-            VoiceChatbot.handle_news()
-            return
-
-        # Check for farewell patterns
-        if any(pattern in speech_lower for pattern in farewell_patterns):
-            print_and_speech("Turning off")
-            sys.exit()
-
-        # Check for math patterns
-        if any(pattern in speech_lower for pattern in math_patterns):
-            result = self.math_reco.main_math(speech)
-            print(f"CB: {result}")
-            text_to_speech(str(result), "en")
-            return
-
-
-        # Check for greeting patterns
-        if any(pattern in speech_lower for pattern in greeting_patterns) and len(speech_lower.split()) < 5:
-            response = greetings()
-            print_and_speech(response)
-            return
-
-        #Check for start timer patterns
-        if any(pattern in speech_lower for pattern in start_timer_patterns):
-            self.timer_class.set_timer(speech_lower.split())
-            self.timer_class.translate_time()
-            print_and_speech(self.timer_class.return_start_time())
-            self.timer_class.start_timer()
-            return
-        #Check for stop timer patterns
-        if any(pattern in speech_lower for pattern in stop_timer_patterns):
-            if self.timer_class.is_running:
-                self.timer_class.stop_timer()
-                print_and_speech("Stopping timer")
-                return
-            else:
-                print_and_speech("No timer is running")
-                return
-
-
-        else :
-
-            best_match,confidence = retrieve_relevant_question_nlp(speech_lower,self.database)
-            if confidence > 0.6 :
-                print_and_speech(f"{best_match['answer']}", )
+        if not matched:
+            best_match, confidence = retrieve_relevant_question_nlp(speech_lower, self.database)
+            if confidence > 0.6:
+                print_and_speech(best_match['answer'])
             else:
                 print_and_speech("I dont know this could ,you teach me")
                 self.learn_new_answer(speech_lower)
 
-    def handle_time(self):
+    def greetings(self):
+        response = greetings()
+        print_and_speech(response)
+        return
+
+    def turn_off(self):
+        print_and_speech("Turn Off ")
+        sys.exit()
+
+    def calculate_math(self,speech):
+        result = self.math_reco.main_math(speech)
+        print(f"CB: {result}")
+        text_to_speech(str(result), "en")
+        return
+
+
+    def start_timer(self,speech):
+        self.timer_class.set_timer(speech.split())
+        self.timer_class.translate_time()
+        print_and_speech(self.timer_class.return_start_time())
+        self.timer_class.start_timer()
+        return
+
+    def stop_timer(self,speech):
+        if self.timer_class.is_running:
+            self.timer_class.stop_timer()
+            print_and_speech("Stopping timer")
+            return
+        else:
+            print_and_speech("No timer is running")
+            return
+
+    @staticmethod
+    def handle_time():
         time = datetime.now()
         time_response = f'It is {time.strftime("%I")}:{time.strftime("%M")} {time.strftime("%p")}'
         print_and_speech(time_response)
         return
-
-    def handle_news(self):
+    @staticmethod
+    def handle_news():
         bbc_head = get_bbc_headlines()
         if bbc_head:
             for idx, news in enumerate(bbc_head, 1):

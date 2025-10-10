@@ -10,4 +10,3 @@ def text_to_speech(text,ln):
 
     except Exception as e:
         print(f"Error in text-to-speech: {e}")
-

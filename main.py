@@ -1,4 +1,3 @@
-from version_4.VoiceBot import VoiceChatbot
-
+from VoiceBot import VoiceChatbot
 CB=VoiceChatbot("Database.json")
 CB.run()
